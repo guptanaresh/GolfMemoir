@@ -1,0 +1,1718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GolfMemoirAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		28216C9D0DB4126800E5133A /* HoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28216C9C0DB4126800E5133A /* HoleView.xib */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F9042B650E7B514300C2CE63 /* EditLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9042B640E7B514300C2CE63 /* EditLocationController.m */; };
+		F9042B690E7B54ED00C2CE63 /* EditLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9042B680E7B54ED00C2CE63 /* EditLocation.xib */; };
+		F9062AFD101AE08A00601B0B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062AFC101AE08A00601B0B /* MapAnnotation.m */; };
+		F9062AFE101AE08A00601B0B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062AFC101AE08A00601B0B /* MapAnnotation.m */; };
+		F9062AFF101AE08A00601B0B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062AFC101AE08A00601B0B /* MapAnnotation.m */; };
+		F9062B3A101AEC1A00601B0B /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062B39101AEC1A00601B0B /* MapOverlayView.m */; };
+		F9062B3B101AEC1A00601B0B /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062B39101AEC1A00601B0B /* MapOverlayView.m */; };
+		F9062B3C101AEC1A00601B0B /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9062B39101AEC1A00601B0B /* MapOverlayView.m */; };
+		F90EFCB50EFBF3A500B65B10 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F90EFCB40EFBF3A500B65B10 /* thumb.png */; };
+		F90EFCB60EFBF3A500B65B10 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F90EFCB40EFBF3A500B65B10 /* thumb.png */; };
+		F90EFCB70EFBF3A500B65B10 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F90EFCB40EFBF3A500B65B10 /* thumb.png */; };
+		F913DEFC0E8B4F880045CF1F /* schema.txt in Resources */ = {isa = PBXBuildFile; fileRef = F913DEFB0E8B4F880045CF1F /* schema.txt */; };
+		F914796A0EA85F3000E24B31 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479660EA85F3000E24B31 /* red.jpg */; };
+		F914796B0EA85F3000E24B31 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479670EA85F3000E24B31 /* black.jpg */; };
+		F914796C0EA85F3000E24B31 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479680EA85F3000E24B31 /* blue.jpg */; };
+		F914796D0EA85F3000E24B31 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479690EA85F3000E24B31 /* white.jpg */; };
+		F914796E0EA85F3000E24B31 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479660EA85F3000E24B31 /* red.jpg */; };
+		F914796F0EA85F3000E24B31 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479670EA85F3000E24B31 /* black.jpg */; };
+		F91479700EA85F3000E24B31 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479680EA85F3000E24B31 /* blue.jpg */; };
+		F91479710EA85F3000E24B31 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479690EA85F3000E24B31 /* white.jpg */; };
+		F915080C0E228BF4004CA8AE /* myicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F915080B0E228BF4004CA8AE /* myicon.png */; };
+		F91566621001E889001B9198 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91566611001E889001B9198 /* MessageUI.framework */; };
+		F91566631001E889001B9198 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91566611001E889001B9198 /* MessageUI.framework */; };
+		F91566641001E889001B9198 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91566611001E889001B9198 /* MessageUI.framework */; };
+		F9184E090E433DBF00E6EF78 /* FriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9184E080E433DBF00E6EF78 /* FriendView.xib */; };
+		F9184E0E0E433F2A00E6EF78 /* GameFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9184E0D0E433F2A00E6EF78 /* GameFriendsViewController.m */; };
+		F91F4E570E2C4C4B00A5E452 /* ScoreCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E560E2C4C4B00A5E452 /* ScoreCardCell.m */; };
+		F91F4E7A0E2C4D3A00A5E452 /* ScoreCardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E790E2C4D3A00A5E452 /* ScoreCardCellView.m */; };
+		F923DBC51013621B00551C38 /* MapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F923DBC31013621B00551C38 /* MapLocationViewController.m */; };
+		F923DBC71013621B00551C38 /* MapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F923DBC31013621B00551C38 /* MapLocationViewController.m */; };
+		F923DBC91013621B00551C38 /* MapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F923DBC31013621B00551C38 /* MapLocationViewController.m */; };
+		F927E53D0DFA42C90063274E /* GameMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F927E53C0DFA42C90063274E /* GameMainView.xib */; };
+		F927E5590DFA54030063274E /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = F927E5580DFA54030063274E /* bg2.png */; };
+		F927E67A0DFBA5970063274E /* ContactTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F927E6790DFBA5970063274E /* ContactTable.m */; };
+		F93030391169C98A004ADE39 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93030381169C98A004ADE39 /* GameKit.framework */; };
+		F930303A1169C98A004ADE39 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93030381169C98A004ADE39 /* GameKit.framework */; };
+		F930303B1169C98A004ADE39 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93030381169C98A004ADE39 /* GameKit.framework */; };
+		F94798FE1170C33C007ECC90 /* BTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94798FD1170C33C007ECC90 /* BTSessionManager.m */; };
+		F94798FF1170C33C007ECC90 /* BTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94798FD1170C33C007ECC90 /* BTSessionManager.m */; };
+		F94799001170C33C007ECC90 /* BTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94798FD1170C33C007ECC90 /* BTSessionManager.m */; };
+		F947990C1170C407007ECC90 /* BTDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F947990B1170C407007ECC90 /* BTDevicesManager.m */; };
+		F947990D1170C407007ECC90 /* BTDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F947990B1170C407007ECC90 /* BTDevicesManager.m */; };
+		F947990E1170C407007ECC90 /* BTDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F947990B1170C407007ECC90 /* BTDevicesManager.m */; };
+		F94799131170C46A007ECC90 /* BTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F94799111170C46A007ECC90 /* BTDevice.m */; };
+		F94799141170C46A007ECC90 /* BTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F94799111170C46A007ECC90 /* BTDevice.m */; };
+		F94799151170C46A007ECC90 /* BTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F94799111170C46A007ECC90 /* BTDevice.m */; };
+		F94A964B0FCAF1E200A11791 /* FacebookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94A964A0FCAF1E200A11791 /* FacebookView.xib */; };
+		F94A964C0FCAF1E200A11791 /* FacebookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94A964A0FCAF1E200A11791 /* FacebookView.xib */; };
+		F94A964D0FCAF1E200A11791 /* FacebookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94A964A0FCAF1E200A11791 /* FacebookView.xib */; };
+		F94CD9D3116C689400DFD92E /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F94CD9D1116C689400DFD92E /* DataHandler.m */; };
+		F94CD9D4116C689400DFD92E /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F94CD9D1116C689400DFD92E /* DataHandler.m */; };
+		F94CD9D5116C689400DFD92E /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F94CD9D1116C689400DFD92E /* DataHandler.m */; };
+		F94CDA36116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CDA34116C6AA800DFD92E /* AudioToolbox.framework */; };
+		F94CDA38116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CDA34116C6AA800DFD92E /* AudioToolbox.framework */; };
+		F94CDA3A116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CDA34116C6AA800DFD92E /* AudioToolbox.framework */; };
+		F950B8AE11F6954500AFE8DD /* Courses.png in Resources */ = {isa = PBXBuildFile; fileRef = F950B8AD11F6954500AFE8DD /* Courses.png */; };
+		F950B8AF11F6954500AFE8DD /* Courses.png in Resources */ = {isa = PBXBuildFile; fileRef = F950B8AD11F6954500AFE8DD /* Courses.png */; };
+		F950B8B011F6954500AFE8DD /* Courses.png in Resources */ = {isa = PBXBuildFile; fileRef = F950B8AD11F6954500AFE8DD /* Courses.png */; };
+		F95B15C40EB82D0E00CB070B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F95B15C30EB82D0E00CB070B /* Reachability.m */; };
+		F95B15C50EB82D0E00CB070B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F95B15C30EB82D0E00CB070B /* Reachability.m */; };
+		F95B15C60EB82D0E00CB070B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F95B15C30EB82D0E00CB070B /* Reachability.m */; };
+		F95E0C7E0E6C42A3006E72B0 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E0C7D0E6C42A3006E72B0 /* TransitionView.m */; };
+		F95E0CC00E6C4368006E72B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95E0CBF0E6C4368006E72B0 /* QuartzCore.framework */; };
+		F9603A740EFD5A1A0095F24D /* iicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1CFBA0E9820F000278DF0 /* iicon.png */; };
+		F964B70410099CC900FEB9FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F964B70310099CC900FEB9FB /* MapKit.framework */; };
+		F964B70510099CC900FEB9FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F964B70310099CC900FEB9FB /* MapKit.framework */; };
+		F964B70610099CC900FEB9FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F964B70310099CC900FEB9FB /* MapKit.framework */; };
+		F96B73FD0E0C356300C72EF0 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FB0E0C356300C72EF0 /* Course.m */; };
+		F96B74000E0C36C800C72EF0 /* CourseHoleData.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */; };
+		F96BA4890DF0AD830059C4F2 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4870DF0AD830059C4F2 /* right.png */; };
+		F96BA4AC0DF0B1BB0059C4F2 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4AB0DF0B1BB0059C4F2 /* left.png */; };
+		F96BA4B30DF0B5270059C4F2 /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BA4B10DF0B5270059C4F2 /* Hole.m */; };
+		F96DBAF60DE0DD2700887D2C /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DBAF50DE0DD2700887D2C /* Score.m */; };
+		F96DBBCB0DE0E5ED00887D2C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96DBBCA0DE0E5ED00887D2C /* libsqlite3.0.dylib */; };
+		F976ED7C0F108AD400060DCA /* SubscribeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F976ED7B0F108AD400060DCA /* SubscribeView.xib */; };
+		F976ED7D0F108AD400060DCA /* SubscribeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F976ED7B0F108AD400060DCA /* SubscribeView.xib */; };
+		F976ED7E0F108AD400060DCA /* SubscribeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F976ED7B0F108AD400060DCA /* SubscribeView.xib */; };
+		F976ED8D0F108C3300060DCA /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F976ED8C0F108C3300060DCA /* SubscribeViewController.m */; };
+		F976ED8E0F108C3300060DCA /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F976ED8C0F108C3300060DCA /* SubscribeViewController.m */; };
+		F976ED8F0F108C3300060DCA /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F976ED8C0F108C3300060DCA /* SubscribeViewController.m */; };
+		F977A6640E3E3CC800475AA0 /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6630E3E3CC800475AA0 /* CourseCell.xib */; };
+		F977A6690E3E3E5C00475AA0 /* EditCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6680E3E3E5C00475AA0 /* EditCourse.xib */; };
+		F97D342A0E2C4B1400CC547F /* ScoreCardTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F97D34290E2C4B1400CC547F /* ScoreCardTable.m */; };
+		F97EE6AF0EB2DC410003AC7B /* iScoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F97EE6AE0EB2DC410003AC7B /* iScoreIcon.png */; };
+		F97EE6B00EB2DC410003AC7B /* iScoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F97EE6AE0EB2DC410003AC7B /* iScoreIcon.png */; };
+		F97EE6B10EB2DC410003AC7B /* iScoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F97EE6AE0EB2DC410003AC7B /* iScoreIcon.png */; };
+		F9807FC60E46E12800171490 /* segment_check.png in Resources */ = {isa = PBXBuildFile; fileRef = F9807FC50E46E12800171490 /* segment_check.png */; };
+		F981472B0FBEA7BB00965031 /* GameFriendPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F981472A0FBEA7BB00965031 /* GameFriendPicker.m */; };
+		F981472C0FBEA7BB00965031 /* GameFriendPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F981472A0FBEA7BB00965031 /* GameFriendPicker.m */; };
+		F981472D0FBEA7BB00965031 /* GameFriendPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F981472A0FBEA7BB00965031 /* GameFriendPicker.m */; };
+		F981474D0FBEA90200965031 /* FriendsMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F981474C0FBEA90200965031 /* FriendsMain.xib */; };
+		F981474E0FBEA90200965031 /* FriendsMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F981474C0FBEA90200965031 /* FriendsMain.xib */; };
+		F981474F0FBEA90200965031 /* FriendsMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F981474C0FBEA90200965031 /* FriendsMain.xib */; };
+		F9840C5A0FCAEE0300E0997F /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840C590FCAEE0300E0997F /* FacebookViewController.m */; };
+		F9840C5B0FCAEE0300E0997F /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840C590FCAEE0300E0997F /* FacebookViewController.m */; };
+		F9840C5C0FCAEE0300E0997F /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840C590FCAEE0300E0997F /* FacebookViewController.m */; };
+		F9870F090E3F726E005F76D7 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F9870F080E3F726E005F76D7 /* blank.png */; };
+		F98963B00E3E29280036A8A5 /* CourseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F98963AB0E3E29280036A8A5 /* CourseTable.m */; };
+		F98C7F9711C6091C008E0960 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98C7F9611C6091C008E0960 /* iAd.framework */; };
+		F98C7F9811C6091C008E0960 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98C7F9611C6091C008E0960 /* iAd.framework */; };
+		F98C7F9911C6091C008E0960 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98C7F9611C6091C008E0960 /* iAd.framework */; };
+		F98CF1EE0E3C840E006877A3 /* CourseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF1ED0E3C840E006877A3 /* CourseMainViewController.m */; };
+		F98CF1F10E3C84A7006877A3 /* CourseMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF1F00E3C84A7006877A3 /* CourseMain.xib */; };
+		F98CF24C0E3C8E8A006877A3 /* EditCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF24A0E3C8E8A006877A3 /* EditCourseController.m */; };
+		F98CF2510E3C900D006877A3 /* EditCourseOld.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF2500E3C900D006877A3 /* EditCourseOld.xib */; };
+		F98DDF990E2081140046A5E4 /* ListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98DDF980E2081140046A5E4 /* ListMain.xib */; };
+		F98EA8DE1086EE630041A43A /* Holes.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8DD1086EE630041A43A /* Holes.png */; };
+		F98EA8DF1086EE630041A43A /* Holes.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8DD1086EE630041A43A /* Holes.png */; };
+		F98EA8E01086EE630041A43A /* Holes.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8DD1086EE630041A43A /* Holes.png */; };
+		F98EA8F31086F04C0041A43A /* course.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8F21086F04C0041A43A /* course.png */; };
+		F98EA8F41086F04C0041A43A /* course.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8F21086F04C0041A43A /* course.png */; };
+		F98EA8F51086F04C0041A43A /* course.png in Resources */ = {isa = PBXBuildFile; fileRef = F98EA8F21086F04C0041A43A /* course.png */; };
+		F996739110AD13ED00724D26 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996739010AD13ED00724D26 /* MediaPlayer.framework */; };
+		F996739210AD13ED00724D26 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996739010AD13ED00724D26 /* MediaPlayer.framework */; };
+		F996739310AD13ED00724D26 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996739010AD13ED00724D26 /* MediaPlayer.framework */; };
+		F996CD580EE91E8F00A2B354 /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = F996CD570EE91E8F00A2B354 /* GTMRegex.m */; };
+		F996CD590EE91E8F00A2B354 /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = F996CD570EE91E8F00A2B354 /* GTMRegex.m */; };
+		F996CD5A0EE91E8F00A2B354 /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = F996CD570EE91E8F00A2B354 /* GTMRegex.m */; };
+		F99756A50F7F47AA006CFEF9 /* iicongold.png in Resources */ = {isa = PBXBuildFile; fileRef = F99756A40F7F47AA006CFEF9 /* iicongold.png */; };
+		F99C34F60E863E77007FFB90 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C34F50E863E77007FFB90 /* DownloadViewController.m */; };
+		F99C34FC0E8640A0007FFB90 /* DownloadCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99C34FB0E8640A0007FFB90 /* DownloadCourse.xib */; };
+		F99C9B2F0EA46A380030F9EC /* straight.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2C0EA46A380030F9EC /* straight.png */; };
+		F99C9B300EA46A380030F9EC /* dogleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2D0EA46A380030F9EC /* dogleft.png */; };
+		F99C9B310EA46A380030F9EC /* dogright.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2E0EA46A380030F9EC /* dogright.png */; };
+		F99C9B320EA46A380030F9EC /* straight.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2C0EA46A380030F9EC /* straight.png */; };
+		F99C9B330EA46A380030F9EC /* dogleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2D0EA46A380030F9EC /* dogleft.png */; };
+		F99C9B340EA46A380030F9EC /* dogright.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2E0EA46A380030F9EC /* dogright.png */; };
+		F9A0C6130E2B17A300877E1D /* golfscores.sql in Resources */ = {isa = PBXBuildFile; fileRef = F9A0C6120E2B17A300877E1D /* golfscores.sql */; };
+		F9A640380E1228240067AC69 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640370E1228240067AC69 /* CoreLocation.framework */; };
+		F9A640540E12285A0067AC69 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640530E12285A0067AC69 /* AddressBook.framework */; };
+		F9A6405F0E1228600067AC69 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A6405E0E1228600067AC69 /* AddressBookUI.framework */; };
+		F9A640890E1228900067AC69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640880E1228900067AC69 /* CoreGraphics.framework */; };
+		F9A7D5600FAD329400F4453A /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A7D55F0FAD329400F4453A /* DatePicker.xib */; };
+		F9A7D5610FAD329400F4453A /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A7D55F0FAD329400F4453A /* DatePicker.xib */; };
+		F9A7D5620FAD329400F4453A /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A7D55F0FAD329400F4453A /* DatePicker.xib */; };
+		F9AC5ED21165C579005757C5 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC5ED11165C579005757C5 /* LineView.m */; };
+		F9AC5ED31165C579005757C5 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC5ED11165C579005757C5 /* LineView.m */; };
+		F9AC5ED41165C579005757C5 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC5ED11165C579005757C5 /* LineView.m */; };
+		F9AE5FB40E8B5958007AC223 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9AE5FB30E8B5958007AC223 /* Settings.bundle */; };
+		F9B07968101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B07967101ECD7F00CD6B25 /* MyMapAnnotationView.m */; };
+		F9B07969101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B07967101ECD7F00CD6B25 /* MyMapAnnotationView.m */; };
+		F9B0796A101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B07967101ECD7F00CD6B25 /* MyMapAnnotationView.m */; };
+		F9B3EC2B100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B3EC2A100236FB0093BD0F /* GolfMemoirMail.jpg */; };
+		F9B3EC2C100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B3EC2A100236FB0093BD0F /* GolfMemoirMail.jpg */; };
+		F9B3EC2D100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B3EC2A100236FB0093BD0F /* GolfMemoirMail.jpg */; };
+		F9B5ADE90E343767008CEC76 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE70E343767008CEC76 /* up.png */; };
+		F9B5ADEA0E343767008CEC76 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE80E343767008CEC76 /* down.png */; };
+		F9B6E4B60EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B6E4B50EB82DBF00F9CB34 /* SystemConfiguration.framework */; };
+		F9B6E4B70EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B6E4B50EB82DBF00F9CB34 /* SystemConfiguration.framework */; };
+		F9B6E4B80EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B6E4B50EB82DBF00F9CB34 /* SystemConfiguration.framework */; };
+		F9BAEAAE0E2158DD00B9CF48 /* ListGameDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BAEAAD0E2158DD00B9CF48 /* ListGameDisplayController.m */; };
+		F9BAEAF20E2166A500B9CF48 /* ListGameDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BAEAF10E2166A500B9CF48 /* ListGameDisplay.xib */; };
+		F9C1133511F41924001E4B49 /* rounds.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133111F41924001E4B49 /* rounds.png */; };
+		F9C1133611F41924001E4B49 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133211F41924001E4B49 /* settings.png */; };
+		F9C1133911F41924001E4B49 /* rounds.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133111F41924001E4B49 /* rounds.png */; };
+		F9C1133A11F41924001E4B49 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133211F41924001E4B49 /* settings.png */; };
+		F9C1133D11F41924001E4B49 /* rounds.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133111F41924001E4B49 /* rounds.png */; };
+		F9C1133E11F41924001E4B49 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1133211F41924001E4B49 /* settings.png */; };
+		F9C33D5F0EDA8A400068AA9B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D5E0EDA8A400068AA9B /* User.m */; };
+		F9C33D600EDA8A400068AA9B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D5E0EDA8A400068AA9B /* User.m */; };
+		F9C33D610EDA8A400068AA9B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D5E0EDA8A400068AA9B /* User.m */; };
+		F9C33D7E0EDA96A20068AA9B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D7D0EDA96A20068AA9B /* LoginViewController.m */; };
+		F9C33D7F0EDA96A20068AA9B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D7D0EDA96A20068AA9B /* LoginViewController.m */; };
+		F9C33D800EDA96A20068AA9B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C33D7D0EDA96A20068AA9B /* LoginViewController.m */; };
+		F9C33E600EDA97DC0068AA9B /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C33E5F0EDA97DC0068AA9B /* Login.xib */; };
+		F9C33E610EDA97DC0068AA9B /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C33E5F0EDA97DC0068AA9B /* Login.xib */; };
+		F9C33E620EDA97DD0068AA9B /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C33E5F0EDA97DC0068AA9B /* Login.xib */; };
+		F9C609420DFA2F78003ED943 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C609410DFA2F78003ED943 /* bg1.png */; };
+		F9C6E6E9116DAEE4007F3FE8 /* PeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E6E7116DAEE4007F3FE8 /* PeerViewController.m */; };
+		F9C6E6EA116DAEE4007F3FE8 /* PeerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C6E6E8116DAEE4007F3FE8 /* PeerViewController.xib */; };
+		F9C6E6EB116DAEE4007F3FE8 /* PeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E6E7116DAEE4007F3FE8 /* PeerViewController.m */; };
+		F9C6E6EC116DAEE4007F3FE8 /* PeerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C6E6E8116DAEE4007F3FE8 /* PeerViewController.xib */; };
+		F9C6E6ED116DAEE4007F3FE8 /* PeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E6E7116DAEE4007F3FE8 /* PeerViewController.m */; };
+		F9C6E6EE116DAEE4007F3FE8 /* PeerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C6E6E8116DAEE4007F3FE8 /* PeerViewController.xib */; };
+		F9C6E735116DB7C3007F3FE8 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E734116DB7C3007F3FE8 /* DeviceCell.m */; };
+		F9C6E736116DB7C3007F3FE8 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E734116DB7C3007F3FE8 /* DeviceCell.m */; };
+		F9C6E737116DB7C3007F3FE8 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6E734116DB7C3007F3FE8 /* DeviceCell.m */; };
+		F9CD50E61666B26C00789269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9CD50E51666B26C00789269 /* Default-568h@2x.png */; };
+		F9CFDD110EB2D72D000C22F5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F9CFDD120EB2D72D000C22F5 /* HoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28216C9C0DB4126800E5133A /* HoleView.xib */; };
+		F9CFDD130EB2D72D000C22F5 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4870DF0AD830059C4F2 /* right.png */; };
+		F9CFDD140EB2D72D000C22F5 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4AB0DF0B1BB0059C4F2 /* left.png */; };
+		F9CFDD150EB2D72D000C22F5 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C609410DFA2F78003ED943 /* bg1.png */; };
+		F9CFDD160EB2D72D000C22F5 /* GameMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F927E53C0DFA42C90063274E /* GameMainView.xib */; };
+		F9CFDD170EB2D72D000C22F5 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = F927E5580DFA54030063274E /* bg2.png */; };
+		F9CFDD180EB2D72D000C22F5 /* prevhole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252D0E1849D800C79077 /* prevhole.png */; };
+		F9CFDD190EB2D72D000C22F5 /* nexthole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252E0E1849D800C79077 /* nexthole.png */; };
+		F9CFDD1A0EB2D72D000C22F5 /* strokeleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125540E18C9A400C79077 /* strokeleft.png */; };
+		F9CFDD1B0EB2D72D000C22F5 /* strokeright.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125550E18C9A400C79077 /* strokeright.png */; };
+		F9CFDD1C0EB2D72D000C22F5 /* photobak.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1258A0E18D42A00C79077 /* photobak.png */; };
+		F9CFDD1D0EB2D72D000C22F5 /* ListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98DDF980E2081140046A5E4 /* ListMain.xib */; };
+		F9CFDD1E0EB2D72D000C22F5 /* ListGameDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BAEAF10E2166A500B9CF48 /* ListGameDisplay.xib */; };
+		F9CFDD1F0EB2D72D000C22F5 /* myicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F915080B0E228BF4004CA8AE /* myicon.png */; };
+		F9CFDD200EB2D72D000C22F5 /* golfscores.sql in Resources */ = {isa = PBXBuildFile; fileRef = F9A0C6120E2B17A300877E1D /* golfscores.sql */; };
+		F9CFDD210EB2D72D000C22F5 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE70E343767008CEC76 /* up.png */; };
+		F9CFDD220EB2D72D000C22F5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE80E343767008CEC76 /* down.png */; };
+		F9CFDD230EB2D72D000C22F5 /* CourseMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF1F00E3C84A7006877A3 /* CourseMain.xib */; };
+		F9CFDD240EB2D72D000C22F5 /* EditCourseOld.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF2500E3C900D006877A3 /* EditCourseOld.xib */; };
+		F9CFDD250EB2D72D000C22F5 /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6630E3E3CC800475AA0 /* CourseCell.xib */; };
+		F9CFDD260EB2D72D000C22F5 /* EditCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6680E3E3E5C00475AA0 /* EditCourse.xib */; };
+		F9CFDD270EB2D72D000C22F5 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F9870F080E3F726E005F76D7 /* blank.png */; };
+		F9CFDD280EB2D72D000C22F5 /* FriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9184E080E433DBF00E6EF78 /* FriendView.xib */; };
+		F9CFDD290EB2D72D000C22F5 /* segment_check.png in Resources */ = {isa = PBXBuildFile; fileRef = F9807FC50E46E12800171490 /* segment_check.png */; };
+		F9CFDD2A0EB2D72D000C22F5 /* testdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9F9B9D00E54A00D00AB6F21 /* testdata.txt */; };
+		F9CFDD2B0EB2D72D000C22F5 /* settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EAC7ED0E73B12500E5F735 /* settings.xib */; };
+		F9CFDD2C0EB2D72D000C22F5 /* EditLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9042B680E7B54ED00C2CE63 /* EditLocation.xib */; };
+		F9CFDD2D0EB2D72D000C22F5 /* DownloadCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99C34FB0E8640A0007FFB90 /* DownloadCourse.xib */; };
+		F9CFDD2E0EB2D72D000C22F5 /* schema.txt in Resources */ = {isa = PBXBuildFile; fileRef = F913DEFB0E8B4F880045CF1F /* schema.txt */; };
+		F9CFDD2F0EB2D72D000C22F5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9AE5FB30E8B5958007AC223 /* Settings.bundle */; };
+		F9CFDD300EB2D72D000C22F5 /* LargeLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E41B630E949E8E00766DCF /* LargeLogo.jpg */; };
+		F9CFDD320EB2D72D000C22F5 /* iicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1CFBA0E9820F000278DF0 /* iicon.png */; };
+		F9CFDD330EB2D72D000C22F5 /* straight.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2C0EA46A380030F9EC /* straight.png */; };
+		F9CFDD340EB2D72D000C22F5 /* dogleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2D0EA46A380030F9EC /* dogleft.png */; };
+		F9CFDD350EB2D72D000C22F5 /* dogright.png in Resources */ = {isa = PBXBuildFile; fileRef = F99C9B2E0EA46A380030F9EC /* dogright.png */; };
+		F9CFDD360EB2D72D000C22F5 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479660EA85F3000E24B31 /* red.jpg */; };
+		F9CFDD370EB2D72D000C22F5 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479670EA85F3000E24B31 /* black.jpg */; };
+		F9CFDD380EB2D72D000C22F5 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479680EA85F3000E24B31 /* blue.jpg */; };
+		F9CFDD390EB2D72D000C22F5 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91479690EA85F3000E24B31 /* white.jpg */; };
+		F9CFDD3B0EB2D72D000C22F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F9CFDD3C0EB2D72D000C22F5 /* GolfMemoirAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */; };
+		F9CFDD3D0EB2D72D000C22F5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		F9CFDD3E0EB2D72D000C22F5 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E211730DD168FD004CD222 /* GameMainViewController.m */; };
+		F9CFDD3F0EB2D72D000C22F5 /* ListMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213030DD17A29004CD222 /* ListMainViewController.m */; };
+		F9CFDD400EB2D72D000C22F5 /* GameHoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213380DD17BE4004CD222 /* GameHoleViewController.m */; };
+		F9CFDD410EB2D72D000C22F5 /* HolePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E214620DD6CE3E004CD222 /* HolePickerView.m */; };
+		F9CFDD420EB2D72D000C22F5 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DBAF50DE0DD2700887D2C /* Score.m */; };
+		F9CFDD430EB2D72D000C22F5 /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BA4B10DF0B5270059C4F2 /* Hole.m */; };
+		F9CFDD440EB2D72D000C22F5 /* ContactTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F927E6790DFBA5970063274E /* ContactTable.m */; };
+		F9CFDD450EB2D72D000C22F5 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FB0E0C356300C72EF0 /* Course.m */; };
+		F9CFDD460EB2D72D000C22F5 /* CourseHoleData.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */; };
+		F9CFDD470EB2D72D000C22F5 /* ListGameDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BAEAAD0E2158DD00B9CF48 /* ListGameDisplayController.m */; };
+		F9CFDD480EB2D72D000C22F5 /* ScoreCardTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F97D34290E2C4B1400CC547F /* ScoreCardTable.m */; };
+		F9CFDD490EB2D72D000C22F5 /* ScoreCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E560E2C4C4B00A5E452 /* ScoreCardCell.m */; };
+		F9CFDD4A0EB2D72D000C22F5 /* ScoreCardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E790E2C4D3A00A5E452 /* ScoreCardCellView.m */; };
+		F9CFDD4B0EB2D72D000C22F5 /* CourseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF1ED0E3C840E006877A3 /* CourseMainViewController.m */; };
+		F9CFDD4C0EB2D72D000C22F5 /* EditCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF24A0E3C8E8A006877A3 /* EditCourseController.m */; };
+		F9CFDD4D0EB2D72D000C22F5 /* CourseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F98963AB0E3E29280036A8A5 /* CourseTable.m */; };
+		F9CFDD4E0EB2D72D000C22F5 /* GameFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9184E0D0E433F2A00E6EF78 /* GameFriendsViewController.m */; };
+		F9CFDD4F0EB2D72D000C22F5 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E0C7D0E6C42A3006E72B0 /* TransitionView.m */; };
+		F9CFDD500EB2D72D000C22F5 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7EF0E73B14000E5F735 /* AppSettings.m */; };
+		F9CFDD510EB2D72D000C22F5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7F10E73B14000E5F735 /* SettingsViewController.m */; };
+		F9CFDD520EB2D72D000C22F5 /* EditLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9042B640E7B514300C2CE63 /* EditLocationController.m */; };
+		F9CFDD530EB2D72D000C22F5 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C34F50E863E77007FFB90 /* DownloadViewController.m */; };
+		F9CFDD550EB2D72D000C22F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F9CFDD560EB2D72D000C22F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F9CFDD570EB2D72D000C22F5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96DBBCA0DE0E5ED00887D2C /* libsqlite3.0.dylib */; };
+		F9CFDD580EB2D72D000C22F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640370E1228240067AC69 /* CoreLocation.framework */; };
+		F9CFDD590EB2D72D000C22F5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640530E12285A0067AC69 /* AddressBook.framework */; };
+		F9CFDD5A0EB2D72D000C22F5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A6405E0E1228600067AC69 /* AddressBookUI.framework */; };
+		F9CFDD5B0EB2D72D000C22F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640880E1228900067AC69 /* CoreGraphics.framework */; };
+		F9CFDD5C0EB2D72D000C22F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95E0CBF0E6C4368006E72B0 /* QuartzCore.framework */; };
+		F9D1252F0E1849D800C79077 /* prevhole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252D0E1849D800C79077 /* prevhole.png */; };
+		F9D125300E1849D800C79077 /* nexthole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252E0E1849D800C79077 /* nexthole.png */; };
+		F9D125560E18C9A400C79077 /* strokeleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125540E18C9A400C79077 /* strokeleft.png */; };
+		F9D125570E18C9A400C79077 /* strokeright.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125550E18C9A400C79077 /* strokeright.png */; };
+		F9D1258B0E18D42A00C79077 /* photobak.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1258A0E18D42A00C79077 /* photobak.png */; };
+		F9D16D370F11CC650065F997 /* UnlockWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D16D360F11CC650065F997 /* UnlockWebViewController.m */; };
+		F9D16D380F11CC650065F997 /* UnlockWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D16D360F11CC650065F997 /* UnlockWebViewController.m */; };
+		F9D16D390F11CC650065F997 /* UnlockWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D16D360F11CC650065F997 /* UnlockWebViewController.m */; };
+		F9D16D660F11CE190065F997 /* UnlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D16D650F11CE190065F997 /* UnlockView.xib */; };
+		F9D16D670F11CE190065F997 /* UnlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D16D650F11CE190065F997 /* UnlockView.xib */; };
+		F9D16D680F11CE190065F997 /* UnlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D16D650F11CE190065F997 /* UnlockView.xib */; };
+		F9D3A4C70FE3659000BF9308 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D3A4C60FE3659000BF9308 /* StoreKit.framework */; };
+		F9D3A4C80FE3659000BF9308 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D3A4C60FE3659000BF9308 /* StoreKit.framework */; };
+		F9D3A4C90FE3659000BF9308 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D3A4C60FE3659000BF9308 /* StoreKit.framework */; };
+		F9D3A4DB0FE368A500BF9308 /* PayObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3A4D90FE368A500BF9308 /* PayObserver.m */; };
+		F9D3A4DC0FE368A500BF9308 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D3A4DA0FE368A500BF9308 /* PayViewController.xib */; };
+		F9D3A4DD0FE368A500BF9308 /* PayObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3A4D90FE368A500BF9308 /* PayObserver.m */; };
+		F9D3A4DE0FE368A500BF9308 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D3A4DA0FE368A500BF9308 /* PayViewController.xib */; };
+		F9D3A4DF0FE368A500BF9308 /* PayObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3A4D90FE368A500BF9308 /* PayObserver.m */; };
+		F9D3A4E00FE368A500BF9308 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D3A4DA0FE368A500BF9308 /* PayViewController.xib */; };
+		F9D4CF5C11B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4A11B3FF8A0097B5D0 /* FBConnectGlobal.m */; };
+		F9D4CF5D11B3FF8A0097B5D0 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4C11B3FF8A0097B5D0 /* FBSession.m */; };
+		F9D4CF5E11B3FF8A0097B5D0 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4E11B3FF8A0097B5D0 /* FBRequest.m */; };
+		F9D4CF5F11B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5011B3FF8A0097B5D0 /* FBXMLHandler.m */; };
+		F9D4CF6011B3FF8A0097B5D0 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5211B3FF8A0097B5D0 /* FBLoginButton.m */; };
+		F9D4CF6111B3FF8A0097B5D0 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5411B3FF8A0097B5D0 /* FBDialog.m */; };
+		F9D4CF6211B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5611B3FF8A0097B5D0 /* FBLoginDialog.m */; };
+		F9D4CF6311B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5811B3FF8A0097B5D0 /* FBPermissionDialog.m */; };
+		F9D4CF6411B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5A11B3FF8A0097B5D0 /* FBStreamDialog.m */; };
+		F9D4CF6511B3FF8A0097B5D0 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9D4CF5B11B3FF8A0097B5D0 /* FBConnect.bundle */; };
+		F9D4CF6611B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4A11B3FF8A0097B5D0 /* FBConnectGlobal.m */; };
+		F9D4CF6711B3FF8A0097B5D0 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4C11B3FF8A0097B5D0 /* FBSession.m */; };
+		F9D4CF6811B3FF8A0097B5D0 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4E11B3FF8A0097B5D0 /* FBRequest.m */; };
+		F9D4CF6911B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5011B3FF8A0097B5D0 /* FBXMLHandler.m */; };
+		F9D4CF6A11B3FF8A0097B5D0 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5211B3FF8A0097B5D0 /* FBLoginButton.m */; };
+		F9D4CF6B11B3FF8A0097B5D0 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5411B3FF8A0097B5D0 /* FBDialog.m */; };
+		F9D4CF6C11B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5611B3FF8A0097B5D0 /* FBLoginDialog.m */; };
+		F9D4CF6D11B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5811B3FF8A0097B5D0 /* FBPermissionDialog.m */; };
+		F9D4CF6E11B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5A11B3FF8A0097B5D0 /* FBStreamDialog.m */; };
+		F9D4CF6F11B3FF8A0097B5D0 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9D4CF5B11B3FF8A0097B5D0 /* FBConnect.bundle */; };
+		F9D4CF7011B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4A11B3FF8A0097B5D0 /* FBConnectGlobal.m */; };
+		F9D4CF7111B3FF8A0097B5D0 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4C11B3FF8A0097B5D0 /* FBSession.m */; };
+		F9D4CF7211B3FF8A0097B5D0 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF4E11B3FF8A0097B5D0 /* FBRequest.m */; };
+		F9D4CF7311B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5011B3FF8A0097B5D0 /* FBXMLHandler.m */; };
+		F9D4CF7411B3FF8A0097B5D0 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5211B3FF8A0097B5D0 /* FBLoginButton.m */; };
+		F9D4CF7511B3FF8A0097B5D0 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5411B3FF8A0097B5D0 /* FBDialog.m */; };
+		F9D4CF7611B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5611B3FF8A0097B5D0 /* FBLoginDialog.m */; };
+		F9D4CF7711B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5811B3FF8A0097B5D0 /* FBPermissionDialog.m */; };
+		F9D4CF7811B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4CF5A11B3FF8A0097B5D0 /* FBStreamDialog.m */; };
+		F9D4CF7911B3FF8A0097B5D0 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9D4CF5B11B3FF8A0097B5D0 /* FBConnect.bundle */; };
+		F9D5EB8C0E98541D0043E87C /* iicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C1CFBA0E9820F000278DF0 /* iicon.png */; };
+		F9E211740DD168FD004CD222 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E211730DD168FD004CD222 /* GameMainViewController.m */; };
+		F9E213040DD17A29004CD222 /* ListMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213030DD17A29004CD222 /* ListMainViewController.m */; };
+		F9E213390DD17BE4004CD222 /* GameHoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213380DD17BE4004CD222 /* GameHoleViewController.m */; };
+		F9E214630DD6CE3E004CD222 /* HolePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E214620DD6CE3E004CD222 /* HolePickerView.m */; };
+		F9E2C5760F9EF0D000654789 /* eGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5740F9EF0D000654789 /* eGolfMemoir.plist */; };
+		F9E2C5770F9EF0D000654789 /* GolfMemoirGold.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5750F9EF0D000654789 /* GolfMemoirGold.plist */; };
+		F9E2C5780F9EF0D000654789 /* eGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5740F9EF0D000654789 /* eGolfMemoir.plist */; };
+		F9E2C5790F9EF0D000654789 /* GolfMemoirGold.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5750F9EF0D000654789 /* GolfMemoirGold.plist */; };
+		F9E2C57A0F9EF0D000654789 /* eGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5740F9EF0D000654789 /* eGolfMemoir.plist */; };
+		F9E2C57B0F9EF0D000654789 /* GolfMemoirGold.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E2C5750F9EF0D000654789 /* GolfMemoirGold.plist */; };
+		F9E41B640E949E8E00766DCF /* LargeLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E41B630E949E8E00766DCF /* LargeLogo.jpg */; };
+		F9E50ADA105A0E8400E16170 /* MapHoleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50AD9105A0E8400E16170 /* MapHoleAnnotation.m */; };
+		F9E50ADB105A0E8400E16170 /* MapHoleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50AD9105A0E8400E16170 /* MapHoleAnnotation.m */; };
+		F9E50ADC105A0E8400E16170 /* MapHoleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50AD9105A0E8400E16170 /* MapHoleAnnotation.m */; };
+		F9E56FFB0EF8CAC6004D6332 /* AsyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E56FFA0EF8CAC6004D6332 /* AsyncConnection.m */; };
+		F9E56FFC0EF8CAC6004D6332 /* AsyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E56FFA0EF8CAC6004D6332 /* AsyncConnection.m */; };
+		F9E56FFD0EF8CAC6004D6332 /* AsyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E56FFA0EF8CAC6004D6332 /* AsyncConnection.m */; };
+		F9EAC7EE0E73B12500E5F735 /* settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EAC7ED0E73B12500E5F735 /* settings.xib */; };
+		F9EAC7F30E73B14000E5F735 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7EF0E73B14000E5F735 /* AppSettings.m */; };
+		F9EAC7F40E73B14000E5F735 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7F10E73B14000E5F735 /* SettingsViewController.m */; };
+		F9EB0F110FCCF685007B55D0 /* bGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0E0FCCF685007B55D0 /* bGolfMemoir.plist */; };
+		F9EB0F120FCCF685007B55D0 /* GolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0F0FCCF685007B55D0 /* GolfMemoir.plist */; };
+		F9EB0F130FCCF685007B55D0 /* aGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F100FCCF685007B55D0 /* aGolfMemoir.plist */; };
+		F9EB0F140FCCF685007B55D0 /* bGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0E0FCCF685007B55D0 /* bGolfMemoir.plist */; };
+		F9EB0F150FCCF685007B55D0 /* GolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0F0FCCF685007B55D0 /* GolfMemoir.plist */; };
+		F9EB0F160FCCF685007B55D0 /* aGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F100FCCF685007B55D0 /* aGolfMemoir.plist */; };
+		F9EB0F170FCCF685007B55D0 /* bGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0E0FCCF685007B55D0 /* bGolfMemoir.plist */; };
+		F9EB0F180FCCF685007B55D0 /* GolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F0F0FCCF685007B55D0 /* GolfMemoir.plist */; };
+		F9EB0F190FCCF685007B55D0 /* aGolfMemoir.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0F100FCCF685007B55D0 /* aGolfMemoir.plist */; };
+		F9F6AB160E98336200CF17F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F9F6AB170E98336200CF17F8 /* HoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28216C9C0DB4126800E5133A /* HoleView.xib */; };
+		F9F6AB180E98336200CF17F8 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4870DF0AD830059C4F2 /* right.png */; };
+		F9F6AB190E98336200CF17F8 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = F96BA4AB0DF0B1BB0059C4F2 /* left.png */; };
+		F9F6AB1A0E98336200CF17F8 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C609410DFA2F78003ED943 /* bg1.png */; };
+		F9F6AB1B0E98336200CF17F8 /* GameMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F927E53C0DFA42C90063274E /* GameMainView.xib */; };
+		F9F6AB1C0E98336200CF17F8 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = F927E5580DFA54030063274E /* bg2.png */; };
+		F9F6AB1D0E98336200CF17F8 /* prevhole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252D0E1849D800C79077 /* prevhole.png */; };
+		F9F6AB1E0E98336200CF17F8 /* nexthole.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1252E0E1849D800C79077 /* nexthole.png */; };
+		F9F6AB1F0E98336200CF17F8 /* strokeleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125540E18C9A400C79077 /* strokeleft.png */; };
+		F9F6AB200E98336200CF17F8 /* strokeright.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D125550E18C9A400C79077 /* strokeright.png */; };
+		F9F6AB210E98336200CF17F8 /* photobak.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1258A0E18D42A00C79077 /* photobak.png */; };
+		F9F6AB220E98336200CF17F8 /* ListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98DDF980E2081140046A5E4 /* ListMain.xib */; };
+		F9F6AB230E98336200CF17F8 /* ListGameDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BAEAF10E2166A500B9CF48 /* ListGameDisplay.xib */; };
+		F9F6AB240E98336200CF17F8 /* myicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F915080B0E228BF4004CA8AE /* myicon.png */; };
+		F9F6AB250E98336200CF17F8 /* golfscores.sql in Resources */ = {isa = PBXBuildFile; fileRef = F9A0C6120E2B17A300877E1D /* golfscores.sql */; };
+		F9F6AB260E98336200CF17F8 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE70E343767008CEC76 /* up.png */; };
+		F9F6AB270E98336200CF17F8 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5ADE80E343767008CEC76 /* down.png */; };
+		F9F6AB280E98336200CF17F8 /* CourseMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF1F00E3C84A7006877A3 /* CourseMain.xib */; };
+		F9F6AB290E98336200CF17F8 /* EditCourseOld.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98CF2500E3C900D006877A3 /* EditCourseOld.xib */; };
+		F9F6AB2A0E98336200CF17F8 /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6630E3E3CC800475AA0 /* CourseCell.xib */; };
+		F9F6AB2B0E98336200CF17F8 /* EditCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F977A6680E3E3E5C00475AA0 /* EditCourse.xib */; };
+		F9F6AB2C0E98336200CF17F8 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F9870F080E3F726E005F76D7 /* blank.png */; };
+		F9F6AB2D0E98336200CF17F8 /* FriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9184E080E433DBF00E6EF78 /* FriendView.xib */; };
+		F9F6AB2E0E98336200CF17F8 /* segment_check.png in Resources */ = {isa = PBXBuildFile; fileRef = F9807FC50E46E12800171490 /* segment_check.png */; };
+		F9F6AB2F0E98336200CF17F8 /* testdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9F9B9D00E54A00D00AB6F21 /* testdata.txt */; };
+		F9F6AB300E98336200CF17F8 /* settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EAC7ED0E73B12500E5F735 /* settings.xib */; };
+		F9F6AB310E98336200CF17F8 /* EditLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9042B680E7B54ED00C2CE63 /* EditLocation.xib */; };
+		F9F6AB320E98336200CF17F8 /* DownloadCourse.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99C34FB0E8640A0007FFB90 /* DownloadCourse.xib */; };
+		F9F6AB330E98336200CF17F8 /* schema.txt in Resources */ = {isa = PBXBuildFile; fileRef = F913DEFB0E8B4F880045CF1F /* schema.txt */; };
+		F9F6AB340E98336200CF17F8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9AE5FB30E8B5958007AC223 /* Settings.bundle */; };
+		F9F6AB350E98336200CF17F8 /* LargeLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E41B630E949E8E00766DCF /* LargeLogo.jpg */; };
+		F9F6AB370E98336200CF17F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F9F6AB380E98336200CF17F8 /* GolfMemoirAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */; };
+		F9F6AB390E98336200CF17F8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		F9F6AB3A0E98336200CF17F8 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E211730DD168FD004CD222 /* GameMainViewController.m */; };
+		F9F6AB3B0E98336200CF17F8 /* ListMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213030DD17A29004CD222 /* ListMainViewController.m */; };
+		F9F6AB3C0E98336200CF17F8 /* GameHoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E213380DD17BE4004CD222 /* GameHoleViewController.m */; };
+		F9F6AB3D0E98336200CF17F8 /* HolePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E214620DD6CE3E004CD222 /* HolePickerView.m */; };
+		F9F6AB3E0E98336200CF17F8 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DBAF50DE0DD2700887D2C /* Score.m */; };
+		F9F6AB3F0E98336200CF17F8 /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BA4B10DF0B5270059C4F2 /* Hole.m */; };
+		F9F6AB400E98336200CF17F8 /* ContactTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F927E6790DFBA5970063274E /* ContactTable.m */; };
+		F9F6AB410E98336200CF17F8 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FB0E0C356300C72EF0 /* Course.m */; };
+		F9F6AB420E98336200CF17F8 /* CourseHoleData.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */; };
+		F9F6AB430E98336200CF17F8 /* ListGameDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BAEAAD0E2158DD00B9CF48 /* ListGameDisplayController.m */; };
+		F9F6AB440E98336200CF17F8 /* ScoreCardTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F97D34290E2C4B1400CC547F /* ScoreCardTable.m */; };
+		F9F6AB450E98336200CF17F8 /* ScoreCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E560E2C4C4B00A5E452 /* ScoreCardCell.m */; };
+		F9F6AB460E98336200CF17F8 /* ScoreCardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91F4E790E2C4D3A00A5E452 /* ScoreCardCellView.m */; };
+		F9F6AB470E98336200CF17F8 /* CourseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF1ED0E3C840E006877A3 /* CourseMainViewController.m */; };
+		F9F6AB480E98336200CF17F8 /* EditCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CF24A0E3C8E8A006877A3 /* EditCourseController.m */; };
+		F9F6AB490E98336200CF17F8 /* CourseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F98963AB0E3E29280036A8A5 /* CourseTable.m */; };
+		F9F6AB4A0E98336200CF17F8 /* GameFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9184E0D0E433F2A00E6EF78 /* GameFriendsViewController.m */; };
+		F9F6AB4B0E98336200CF17F8 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E0C7D0E6C42A3006E72B0 /* TransitionView.m */; };
+		F9F6AB4C0E98336200CF17F8 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7EF0E73B14000E5F735 /* AppSettings.m */; };
+		F9F6AB4D0E98336200CF17F8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC7F10E73B14000E5F735 /* SettingsViewController.m */; };
+		F9F6AB4E0E98336200CF17F8 /* EditLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9042B640E7B514300C2CE63 /* EditLocationController.m */; };
+		F9F6AB4F0E98336200CF17F8 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C34F50E863E77007FFB90 /* DownloadViewController.m */; };
+		F9F6AB510E98336200CF17F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F9F6AB520E98336200CF17F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F9F6AB530E98336200CF17F8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96DBBCA0DE0E5ED00887D2C /* libsqlite3.0.dylib */; };
+		F9F6AB540E98336200CF17F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640370E1228240067AC69 /* CoreLocation.framework */; };
+		F9F6AB550E98336200CF17F8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640530E12285A0067AC69 /* AddressBook.framework */; };
+		F9F6AB560E98336200CF17F8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A6405E0E1228600067AC69 /* AddressBookUI.framework */; };
+		F9F6AB570E98336200CF17F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A640880E1228900067AC69 /* CoreGraphics.framework */; };
+		F9F6AB580E98336200CF17F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95E0CBF0E6C4368006E72B0 /* QuartzCore.framework */; };
+		F9F9B9D10E54A00D00AB6F21 /* testdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9F9B9D00E54A00D00AB6F21 /* testdata.txt */; };
+		F9FDBEFB0EDF30D800EF55E2 /* EmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FDBEFA0EDF30D800EF55E2 /* EmailView.xib */; };
+		F9FDBEFC0EDF30D800EF55E2 /* EmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FDBEFA0EDF30D800EF55E2 /* EmailView.xib */; };
+		F9FDBEFD0EDF30D800EF55E2 /* EmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FDBEFA0EDF30D800EF55E2 /* EmailView.xib */; };
+		F9FDBF030EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FDBF020EDF320A00EF55E2 /* ScoreWebViewController.m */; };
+		F9FDBF040EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FDBF020EDF320A00EF55E2 /* ScoreWebViewController.m */; };
+		F9FDBF050EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FDBF020EDF320A00EF55E2 /* ScoreWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GolfMemoirAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolfMemoirAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolfMemoirAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GolfMemoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfMemoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		28216C9C0DB4126800E5133A /* HoleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoleView.xib; sourceTree = "<group>"; };
+		28A0AB4B0D9B1048005BE974 /* GolfMemoir_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolfMemoir_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F900572E0F79EA29004C7B6D /* iInfoScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iInfoScore.plist; sourceTree = "<group>"; };
+		F900572F0F79EA29004C7B6D /* iInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iInfo.plist; sourceTree = "<group>"; };
+		F9042B630E7B514300C2CE63 /* EditLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLocationController.h; sourceTree = "<group>"; };
+		F9042B640E7B514300C2CE63 /* EditLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLocationController.m; sourceTree = "<group>"; };
+		F9042B680E7B54ED00C2CE63 /* EditLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditLocation.xib; sourceTree = "<group>"; };
+		F9062AFB101AE08A00601B0B /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		F9062AFC101AE08A00601B0B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		F9062B38101AEC1A00601B0B /* MapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlayView.h; sourceTree = "<group>"; };
+		F9062B39101AEC1A00601B0B /* MapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlayView.m; sourceTree = "<group>"; };
+		F90EFCB40EFBF3A500B65B10 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		F913DEFB0E8B4F880045CF1F /* schema.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.txt; sourceTree = "<group>"; };
+		F91479660EA85F3000E24B31 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		F91479670EA85F3000E24B31 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		F91479680EA85F3000E24B31 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
+		F91479690EA85F3000E24B31 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		F915080B0E228BF4004CA8AE /* myicon.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = myicon.png; path = images/myicon.png; sourceTree = "<group>"; };
+		F91566611001E889001B9198 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F9184E080E433DBF00E6EF78 /* FriendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendView.xib; sourceTree = "<group>"; };
+		F9184E0C0E433F2A00E6EF78 /* GameFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFriendsViewController.h; sourceTree = "<group>"; };
+		F9184E0D0E433F2A00E6EF78 /* GameFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFriendsViewController.m; sourceTree = "<group>"; };
+		F91F4E4D0E2C4BE300A5E452 /* ScoreCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCardCell.h; sourceTree = "<group>"; };
+		F91F4E560E2C4C4B00A5E452 /* ScoreCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCardCell.m; sourceTree = "<group>"; };
+		F91F4E5A0E2C4CFD00A5E452 /* ScoreCardCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCardCellView.h; sourceTree = "<group>"; };
+		F91F4E790E2C4D3A00A5E452 /* ScoreCardCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCardCellView.m; sourceTree = "<group>"; };
+		F923DBC21013621B00551C38 /* MapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationViewController.h; sourceTree = "<group>"; };
+		F923DBC31013621B00551C38 /* MapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationViewController.m; sourceTree = "<group>"; };
+		F927E53C0DFA42C90063274E /* GameMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameMainView.xib; sourceTree = "<group>"; };
+		F927E5580DFA54030063274E /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		F927E6780DFBA5970063274E /* ContactTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTable.h; sourceTree = "<group>"; };
+		F927E6790DFBA5970063274E /* ContactTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTable.m; sourceTree = "<group>"; };
+		F93030381169C98A004ADE39 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F93FA7840F7E7AC8006B91B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94798FC1170C33C007ECC90 /* BTSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSessionManager.h; sourceTree = "<group>"; };
+		F94798FD1170C33C007ECC90 /* BTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSessionManager.m; sourceTree = "<group>"; };
+		F947990A1170C407007ECC90 /* BTDevicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevicesManager.h; sourceTree = "<group>"; };
+		F947990B1170C407007ECC90 /* BTDevicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDevicesManager.m; sourceTree = "<group>"; };
+		F94799111170C46A007ECC90 /* BTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDevice.m; sourceTree = "<group>"; };
+		F94799121170C46A007ECC90 /* BTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevice.h; sourceTree = "<group>"; };
+		F94A964A0FCAF1E200A11791 /* FacebookView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookView.xib; sourceTree = "<group>"; };
+		F94CD9D0116C689400DFD92E /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		F94CD9D1116C689400DFD92E /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		F94CDA34116C6AA800DFD92E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F950B8AD11F6954500AFE8DD /* Courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Courses.png; path = images/Courses.png; sourceTree = "<group>"; };
+		F95B15C20EB82D0E00CB070B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F95B15C30EB82D0E00CB070B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F95E0C7C0E6C42A3006E72B0 /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
+		F95E0C7D0E6C42A3006E72B0 /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
+		F95E0CBF0E6C4368006E72B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F964B70310099CC900FEB9FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F96B73FB0E0C356300C72EF0 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		F96B73FC0E0C356300C72EF0 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseHoleData.m; sourceTree = "<group>"; };
+		F96B73FF0E0C36C800C72EF0 /* CourseHoleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseHoleData.h; sourceTree = "<group>"; };
+		F96BA4870DF0AD830059C4F2 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		F96BA4AB0DF0B1BB0059C4F2 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		F96BA4B10DF0B5270059C4F2 /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		F96BA4B20DF0B5270059C4F2 /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		F96DBAF40DE0DD2700887D2C /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		F96DBAF50DE0DD2700887D2C /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		F96DBBCA0DE0E5ED00887D2C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F9769B9E0DEF1F590048BBBD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F976ED7B0F108AD400060DCA /* SubscribeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeView.xib; sourceTree = "<group>"; };
+		F976ED8B0F108C3300060DCA /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
+		F976ED8C0F108C3300060DCA /* SubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
+		F977A6630E3E3CC800475AA0 /* CourseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		F977A6680E3E3E5C00475AA0 /* EditCourse.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCourse.xib; sourceTree = "<group>"; };
+		F97D33FE0E2C4A7300CC547F /* ScoreCardTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCardTable.h; sourceTree = "<group>"; };
+		F97D34290E2C4B1400CC547F /* ScoreCardTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCardTable.m; sourceTree = "<group>"; };
+		F97EE6AE0EB2DC410003AC7B /* iScoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iScoreIcon.png; path = images/iScoreIcon.png; sourceTree = "<group>"; };
+		F9807FC50E46E12800171490 /* segment_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_check.png; sourceTree = "<group>"; };
+		F98147290FBEA7BB00965031 /* GameFriendPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFriendPicker.h; sourceTree = "<group>"; };
+		F981472A0FBEA7BB00965031 /* GameFriendPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameFriendPicker.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F981474C0FBEA90200965031 /* FriendsMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsMain.xib; sourceTree = "<group>"; };
+		F9840C580FCAEE0300E0997F /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		F9840C590FCAEE0300E0997F /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FacebookViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F9870F080E3F726E005F76D7 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		F98963AB0E3E29280036A8A5 /* CourseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseTable.m; sourceTree = "<group>"; };
+		F98963AC0E3E29280036A8A5 /* CourseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseTable.h; sourceTree = "<group>"; };
+		F98C7F9611C6091C008E0960 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F98CF1EC0E3C83FE006877A3 /* CourseMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseMainViewController.h; sourceTree = "<group>"; };
+		F98CF1ED0E3C840E006877A3 /* CourseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseMainViewController.m; sourceTree = "<group>"; };
+		F98CF1F00E3C84A7006877A3 /* CourseMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseMain.xib; sourceTree = "<group>"; };
+		F98CF24A0E3C8E8A006877A3 /* EditCourseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCourseController.m; sourceTree = "<group>"; };
+		F98CF24B0E3C8E8A006877A3 /* EditCourseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCourseController.h; sourceTree = "<group>"; };
+		F98CF2500E3C900D006877A3 /* EditCourseOld.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCourseOld.xib; sourceTree = "<group>"; };
+		F98DDF980E2081140046A5E4 /* ListMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListMain.xib; sourceTree = "<group>"; };
+		F98EA8DD1086EE630041A43A /* Holes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Holes.png; sourceTree = "<group>"; };
+		F98EA8F21086F04C0041A43A /* course.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = course.png; sourceTree = "<group>"; };
+		F996739010AD13ED00724D26 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F996CD560EE91E7800A2B354 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F996CD570EE91E8F00A2B354 /* GTMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMRegex.m; sourceTree = "<group>"; };
+		F996CD5B0EE91EA700A2B354 /* GTMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMRegex.h; sourceTree = "<group>"; };
+		F99756A40F7F47AA006CFEF9 /* iicongold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iicongold.png; path = images/iicongold.png; sourceTree = "<group>"; };
+		F99C34F40E863E77007FFB90 /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		F99C34F50E863E77007FFB90 /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		F99C34FB0E8640A0007FFB90 /* DownloadCourse.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadCourse.xib; sourceTree = "<group>"; };
+		F99C9B2C0EA46A380030F9EC /* straight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straight.png; sourceTree = "<group>"; };
+		F99C9B2D0EA46A380030F9EC /* dogleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogleft.png; sourceTree = "<group>"; };
+		F99C9B2E0EA46A380030F9EC /* dogright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogright.png; sourceTree = "<group>"; };
+		F9A0C6120E2B17A300877E1D /* golfscores.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = golfscores.sql; sourceTree = "<group>"; };
+		F9A640370E1228240067AC69 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9A640530E12285A0067AC69 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F9A6405E0E1228600067AC69 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F9A640880E1228900067AC69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9A7D55F0FAD329400F4453A /* DatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
+		F9AC5ED01165C579005757C5 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		F9AC5ED11165C579005757C5 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		F9AE5FB30E8B5958007AC223 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Classes/Settings.bundle; sourceTree = "<group>"; };
+		F9B07966101ECD7F00CD6B25 /* MyMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotationView.h; sourceTree = "<group>"; };
+		F9B07967101ECD7F00CD6B25 /* MyMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotationView.m; sourceTree = "<group>"; };
+		F9B3EC2A100236FB0093BD0F /* GolfMemoirMail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GolfMemoirMail.jpg; sourceTree = "<group>"; };
+		F9B5ADE70E343767008CEC76 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		F9B5ADE80E343767008CEC76 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		F9B6E4B50EB82DBF00F9CB34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9BAEAAB0E21586000B9CF48 /* ListGameDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListGameDisplayController.h; sourceTree = "<group>"; };
+		F9BAEAAD0E2158DD00B9CF48 /* ListGameDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListGameDisplayController.m; sourceTree = "<group>"; };
+		F9BAEAF10E2166A500B9CF48 /* ListGameDisplay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListGameDisplay.xib; sourceTree = "<group>"; };
+		F9C1133011F41924001E4B49 /* Holes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Holes.png; path = images/Holes.png; sourceTree = "<group>"; };
+		F9C1133111F41924001E4B49 /* rounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rounds.png; path = images/rounds.png; sourceTree = "<group>"; };
+		F9C1133211F41924001E4B49 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = images/settings.png; sourceTree = "<group>"; };
+		F9C1CFBA0E9820F000278DF0 /* iicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iicon.png; path = images/iicon.png; sourceTree = "<group>"; };
+		F9C33D5D0EDA8A400068AA9B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F9C33D5E0EDA8A400068AA9B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F9C33D7C0EDA96A20068AA9B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F9C33D7D0EDA96A20068AA9B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F9C33E5F0EDA97DC0068AA9B /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		F9C609410DFA2F78003ED943 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		F9C6E6E6116DAEE4007F3FE8 /* PeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerViewController.h; sourceTree = "<group>"; };
+		F9C6E6E7116DAEE4007F3FE8 /* PeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PeerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F9C6E6E8116DAEE4007F3FE8 /* PeerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PeerViewController.xib; path = Classes/PeerViewController.xib; sourceTree = "<group>"; };
+		F9C6E733116DB7C3007F3FE8 /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		F9C6E734116DB7C3007F3FE8 /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		F9CD50E51666B26C00789269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F9CFDD600EB2D72D000C22F5 /* iGolfScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGolfScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D1252D0E1849D800C79077 /* prevhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevhole.png; sourceTree = "<group>"; };
+		F9D1252E0E1849D800C79077 /* nexthole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nexthole.png; sourceTree = "<group>"; };
+		F9D125540E18C9A400C79077 /* strokeleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strokeleft.png; sourceTree = "<group>"; };
+		F9D125550E18C9A400C79077 /* strokeright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strokeright.png; sourceTree = "<group>"; };
+		F9D1258A0E18D42A00C79077 /* photobak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photobak.png; sourceTree = "<group>"; };
+		F9D16D350F11CC650065F997 /* UnlockWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockWebViewController.h; sourceTree = "<group>"; };
+		F9D16D360F11CC650065F997 /* UnlockWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockWebViewController.m; sourceTree = "<group>"; };
+		F9D16D650F11CE190065F997 /* UnlockView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnlockView.xib; sourceTree = "<group>"; };
+		F9D3A4C60FE3659000BF9308 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F9D3A4D80FE368A500BF9308 /* PayObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayObserver.h; sourceTree = "<group>"; };
+		F9D3A4D90FE368A500BF9308 /* PayObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayObserver.m; sourceTree = "<group>"; };
+		F9D3A4DA0FE368A500BF9308 /* PayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PayViewController.xib; path = Classes/PayViewController.xib; sourceTree = "<group>"; };
+		F9D4CF4811B3FF8A0097B5D0 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		F9D4CF4911B3FF8A0097B5D0 /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnectGlobal.h; sourceTree = "<group>"; };
+		F9D4CF4A11B3FF8A0097B5D0 /* FBConnectGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConnectGlobal.m; sourceTree = "<group>"; };
+		F9D4CF4B11B3FF8A0097B5D0 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		F9D4CF4C11B3FF8A0097B5D0 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		F9D4CF4D11B3FF8A0097B5D0 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		F9D4CF4E11B3FF8A0097B5D0 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		F9D4CF4F11B3FF8A0097B5D0 /* FBXMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXMLHandler.h; sourceTree = "<group>"; };
+		F9D4CF5011B3FF8A0097B5D0 /* FBXMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXMLHandler.m; sourceTree = "<group>"; };
+		F9D4CF5111B3FF8A0097B5D0 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		F9D4CF5211B3FF8A0097B5D0 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		F9D4CF5311B3FF8A0097B5D0 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		F9D4CF5411B3FF8A0097B5D0 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		F9D4CF5511B3FF8A0097B5D0 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		F9D4CF5611B3FF8A0097B5D0 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		F9D4CF5711B3FF8A0097B5D0 /* FBPermissionDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPermissionDialog.h; sourceTree = "<group>"; };
+		F9D4CF5811B3FF8A0097B5D0 /* FBPermissionDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPermissionDialog.m; sourceTree = "<group>"; };
+		F9D4CF5911B3FF8A0097B5D0 /* FBStreamDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBStreamDialog.h; sourceTree = "<group>"; };
+		F9D4CF5A11B3FF8A0097B5D0 /* FBStreamDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBStreamDialog.m; sourceTree = "<group>"; };
+		F9D4CF5B11B3FF8A0097B5D0 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBConnect.bundle; sourceTree = "<group>"; };
+		F9E211720DD168FD004CD222 /* GameMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainViewController.h; sourceTree = "<group>"; };
+		F9E211730DD168FD004CD222 /* GameMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainViewController.m; sourceTree = "<group>"; };
+		F9E213020DD17A29004CD222 /* ListMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMainViewController.h; sourceTree = "<group>"; };
+		F9E213030DD17A29004CD222 /* ListMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListMainViewController.m; sourceTree = "<group>"; };
+		F9E213370DD17BE4004CD222 /* GameHoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHoleViewController.h; sourceTree = "<group>"; };
+		F9E213380DD17BE4004CD222 /* GameHoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameHoleViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F9E214610DD6CE3E004CD222 /* HolePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HolePickerView.h; path = Pickers/HolePickerView.h; sourceTree = "<group>"; };
+		F9E214620DD6CE3E004CD222 /* HolePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HolePickerView.m; path = Pickers/HolePickerView.m; sourceTree = "<group>"; };
+		F9E2C5740F9EF0D000654789 /* eGolfMemoir.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eGolfMemoir.plist; sourceTree = "<group>"; };
+		F9E2C5750F9EF0D000654789 /* GolfMemoirGold.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GolfMemoirGold.plist; sourceTree = "<group>"; };
+		F9E41B630E949E8E00766DCF /* LargeLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LargeLogo.jpg; sourceTree = "<group>"; };
+		F9E50AD8105A0E8400E16170 /* MapHoleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapHoleAnnotation.h; sourceTree = "<group>"; };
+		F9E50AD9105A0E8400E16170 /* MapHoleAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapHoleAnnotation.m; sourceTree = "<group>"; };
+		F9E56FF90EF8CAC6004D6332 /* AsyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncConnection.h; sourceTree = "<group>"; };
+		F9E56FFA0EF8CAC6004D6332 /* AsyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncConnection.m; sourceTree = "<group>"; };
+		F9EAC7ED0E73B12500E5F735 /* settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = settings.xib; sourceTree = "<group>"; };
+		F9EAC7EF0E73B14000E5F735 /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		F9EAC7F00E73B14000E5F735 /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		F9EAC7F10E73B14000E5F735 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F9EAC7F20E73B14000E5F735 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F9EB0F0E0FCCF685007B55D0 /* bGolfMemoir.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bGolfMemoir.plist; sourceTree = "<group>"; };
+		F9EB0F0F0FCCF685007B55D0 /* GolfMemoir.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GolfMemoir.plist; sourceTree = "<group>"; };
+		F9EB0F100FCCF685007B55D0 /* aGolfMemoir.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = aGolfMemoir.plist; sourceTree = "<group>"; };
+		F9F6AB5C0E98336200CF17F8 /* iGolfMemoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGolfMemoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9B9D00E54A00D00AB6F21 /* testdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testdata.txt; sourceTree = "<group>"; };
+		F9FDBEFA0EDF30D800EF55E2 /* EmailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailView.xib; sourceTree = "<group>"; };
+		F9FDBF010EDF320A00EF55E2 /* ScoreWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreWebViewController.h; sourceTree = "<group>"; };
+		F9FDBF020EDF320A00EF55E2 /* ScoreWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				F96DBBCB0DE0E5ED00887D2C /* libsqlite3.0.dylib in Frameworks */,
+				F9A640380E1228240067AC69 /* CoreLocation.framework in Frameworks */,
+				F9A640540E12285A0067AC69 /* AddressBook.framework in Frameworks */,
+				F9A6405F0E1228600067AC69 /* AddressBookUI.framework in Frameworks */,
+				F9A640890E1228900067AC69 /* CoreGraphics.framework in Frameworks */,
+				F95E0CC00E6C4368006E72B0 /* QuartzCore.framework in Frameworks */,
+				F9B6E4B70EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */,
+				F9D3A4C80FE3659000BF9308 /* StoreKit.framework in Frameworks */,
+				F91566631001E889001B9198 /* MessageUI.framework in Frameworks */,
+				F964B70510099CC900FEB9FB /* MapKit.framework in Frameworks */,
+				F996739210AD13ED00724D26 /* MediaPlayer.framework in Frameworks */,
+				F930303A1169C98A004ADE39 /* GameKit.framework in Frameworks */,
+				F94CDA38116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */,
+				F98C7F9811C6091C008E0960 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CFDD540EB2D72D000C22F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CFDD550EB2D72D000C22F5 /* Foundation.framework in Frameworks */,
+				F9CFDD560EB2D72D000C22F5 /* UIKit.framework in Frameworks */,
+				F9CFDD570EB2D72D000C22F5 /* libsqlite3.0.dylib in Frameworks */,
+				F9CFDD580EB2D72D000C22F5 /* CoreLocation.framework in Frameworks */,
+				F9CFDD590EB2D72D000C22F5 /* AddressBook.framework in Frameworks */,
+				F9CFDD5A0EB2D72D000C22F5 /* AddressBookUI.framework in Frameworks */,
+				F9CFDD5B0EB2D72D000C22F5 /* CoreGraphics.framework in Frameworks */,
+				F9CFDD5C0EB2D72D000C22F5 /* QuartzCore.framework in Frameworks */,
+				F9B6E4B60EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */,
+				F9D3A4C90FE3659000BF9308 /* StoreKit.framework in Frameworks */,
+				F91566621001E889001B9198 /* MessageUI.framework in Frameworks */,
+				F964B70410099CC900FEB9FB /* MapKit.framework in Frameworks */,
+				F996739310AD13ED00724D26 /* MediaPlayer.framework in Frameworks */,
+				F930303B1169C98A004ADE39 /* GameKit.framework in Frameworks */,
+				F94CDA3A116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */,
+				F98C7F9911C6091C008E0960 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6AB500E98336200CF17F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F6AB510E98336200CF17F8 /* Foundation.framework in Frameworks */,
+				F9F6AB520E98336200CF17F8 /* UIKit.framework in Frameworks */,
+				F9F6AB530E98336200CF17F8 /* libsqlite3.0.dylib in Frameworks */,
+				F9F6AB540E98336200CF17F8 /* CoreLocation.framework in Frameworks */,
+				F9F6AB550E98336200CF17F8 /* AddressBook.framework in Frameworks */,
+				F9F6AB560E98336200CF17F8 /* AddressBookUI.framework in Frameworks */,
+				F9F6AB570E98336200CF17F8 /* CoreGraphics.framework in Frameworks */,
+				F9F6AB580E98336200CF17F8 /* QuartzCore.framework in Frameworks */,
+				F9B6E4B80EB82DBF00F9CB34 /* SystemConfiguration.framework in Frameworks */,
+				F9D3A4C70FE3659000BF9308 /* StoreKit.framework in Frameworks */,
+				F91566641001E889001B9198 /* MessageUI.framework in Frameworks */,
+				F964B70610099CC900FEB9FB /* MapKit.framework in Frameworks */,
+				F996739110AD13ED00724D26 /* MediaPlayer.framework in Frameworks */,
+				F93030391169C98A004ADE39 /* GameKit.framework in Frameworks */,
+				F94CDA36116C6AA800DFD92E /* AudioToolbox.framework in Frameworks */,
+				F98C7F9711C6091C008E0960 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9EAC7F00E73B14000E5F735 /* AppSettings.h */,
+				F9EAC7EF0E73B14000E5F735 /* AppSettings.m */,
+				F9E56FF90EF8CAC6004D6332 /* AsyncConnection.h */,
+				F9E56FFA0EF8CAC6004D6332 /* AsyncConnection.m */,
+				F94CD9AF116C662F00DFD92E /* gamekitconnection */,
+				F9769B9E0DEF1F590048BBBD /* Constants.h */,
+				F927E6780DFBA5970063274E /* ContactTable.h */,
+				F927E6790DFBA5970063274E /* ContactTable.m */,
+				F96B73FC0E0C356300C72EF0 /* Course.h */,
+				F96B73FB0E0C356300C72EF0 /* Course.m */,
+				F96B73FF0E0C36C800C72EF0 /* CourseHoleData.h */,
+				F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */,
+				F98CF1EC0E3C83FE006877A3 /* CourseMainViewController.h */,
+				F98CF1ED0E3C840E006877A3 /* CourseMainViewController.m */,
+				F98963AC0E3E29280036A8A5 /* CourseTable.h */,
+				F98963AB0E3E29280036A8A5 /* CourseTable.m */,
+				F99C34F40E863E77007FFB90 /* DownloadViewController.h */,
+				F99C34F50E863E77007FFB90 /* DownloadViewController.m */,
+				F98CF24B0E3C8E8A006877A3 /* EditCourseController.h */,
+				F98CF24A0E3C8E8A006877A3 /* EditCourseController.m */,
+				F9042B630E7B514300C2CE63 /* EditLocationController.h */,
+				F9042B640E7B514300C2CE63 /* EditLocationController.m */,
+				F9840C580FCAEE0300E0997F /* FacebookViewController.h */,
+				F9840C590FCAEE0300E0997F /* FacebookViewController.m */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				F98147290FBEA7BB00965031 /* GameFriendPicker.h */,
+				F981472A0FBEA7BB00965031 /* GameFriendPicker.m */,
+				F9C6E6E6116DAEE4007F3FE8 /* PeerViewController.h */,
+				F9C6E6E7116DAEE4007F3FE8 /* PeerViewController.m */,
+				F9184E0C0E433F2A00E6EF78 /* GameFriendsViewController.h */,
+				F9184E0D0E433F2A00E6EF78 /* GameFriendsViewController.m */,
+				F9E213370DD17BE4004CD222 /* GameHoleViewController.h */,
+				F9E213380DD17BE4004CD222 /* GameHoleViewController.m */,
+				F9E211720DD168FD004CD222 /* GameMainViewController.h */,
+				F9E211730DD168FD004CD222 /* GameMainViewController.m */,
+				1D3623240D0F684500981E51 /* GolfMemoirAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */,
+				F996CD560EE91E7800A2B354 /* GTMDefines.h */,
+				F996CD5B0EE91EA700A2B354 /* GTMRegex.h */,
+				F996CD570EE91E8F00A2B354 /* GTMRegex.m */,
+				F96BA4B20DF0B5270059C4F2 /* Hole.h */,
+				F96BA4B10DF0B5270059C4F2 /* Hole.m */,
+				F9E214610DD6CE3E004CD222 /* HolePickerView.h */,
+				F9E214620DD6CE3E004CD222 /* HolePickerView.m */,
+				F9BAEAAB0E21586000B9CF48 /* ListGameDisplayController.h */,
+				F9BAEAAD0E2158DD00B9CF48 /* ListGameDisplayController.m */,
+				F9E213020DD17A29004CD222 /* ListMainViewController.h */,
+				F9E213030DD17A29004CD222 /* ListMainViewController.m */,
+				F9AC5ED01165C579005757C5 /* LineView.h */,
+				F9AC5ED11165C579005757C5 /* LineView.m */,
+				F9C33D7C0EDA96A20068AA9B /* LoginViewController.h */,
+				F9C33D7D0EDA96A20068AA9B /* LoginViewController.m */,
+				F923DBC21013621B00551C38 /* MapLocationViewController.h */,
+				F923DBC31013621B00551C38 /* MapLocationViewController.m */,
+				F9B07966101ECD7F00CD6B25 /* MyMapAnnotationView.h */,
+				F9B07967101ECD7F00CD6B25 /* MyMapAnnotationView.m */,
+				F9062AFB101AE08A00601B0B /* MapAnnotation.h */,
+				F9062AFC101AE08A00601B0B /* MapAnnotation.m */,
+				F9E50AD8105A0E8400E16170 /* MapHoleAnnotation.h */,
+				F9E50AD9105A0E8400E16170 /* MapHoleAnnotation.m */,
+				F9062B38101AEC1A00601B0B /* MapOverlayView.h */,
+				F9062B39101AEC1A00601B0B /* MapOverlayView.m */,
+				F95B15C20EB82D0E00CB070B /* Reachability.h */,
+				F95B15C30EB82D0E00CB070B /* Reachability.m */,
+				F96DBAF40DE0DD2700887D2C /* Score.h */,
+				F96DBAF50DE0DD2700887D2C /* Score.m */,
+				F91F4E4D0E2C4BE300A5E452 /* ScoreCardCell.h */,
+				F91F4E560E2C4C4B00A5E452 /* ScoreCardCell.m */,
+				F91F4E5A0E2C4CFD00A5E452 /* ScoreCardCellView.h */,
+				F91F4E790E2C4D3A00A5E452 /* ScoreCardCellView.m */,
+				F97D33FE0E2C4A7300CC547F /* ScoreCardTable.h */,
+				F97D34290E2C4B1400CC547F /* ScoreCardTable.m */,
+				F9FDBF010EDF320A00EF55E2 /* ScoreWebViewController.h */,
+				F9FDBF020EDF320A00EF55E2 /* ScoreWebViewController.m */,
+				F9EAC7F20E73B14000E5F735 /* SettingsViewController.h */,
+				F9EAC7F10E73B14000E5F735 /* SettingsViewController.m */,
+				F976ED8B0F108C3300060DCA /* SubscribeViewController.h */,
+				F976ED8C0F108C3300060DCA /* SubscribeViewController.m */,
+				F95E0C7C0E6C42A3006E72B0 /* TransitionView.h */,
+				F95E0C7D0E6C42A3006E72B0 /* TransitionView.m */,
+				F9D3A4D80FE368A500BF9308 /* PayObserver.h */,
+				F9D3A4D90FE368A500BF9308 /* PayObserver.m */,
+				F9D16D350F11CC650065F997 /* UnlockWebViewController.h */,
+				F9D16D360F11CC650065F997 /* UnlockWebViewController.m */,
+				F9C33D5D0EDA8A400068AA9B /* User.h */,
+				F9C33D5E0EDA8A400068AA9B /* User.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GolfMemoir.app */,
+				F9F6AB5C0E98336200CF17F8 /* iGolfMemoir.app */,
+				F9CFDD600EB2D72D000C22F5 /* iGolfScore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GolfMemoir */ = {
+			isa = PBXGroup;
+			children = (
+				F9CD50E51666B26C00789269 /* Default-568h@2x.png */,
+				F9D4CF4711B3FF8A0097B5D0 /* FBConnect */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				F96BA4860DF0AD830059C4F2 /* images */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GolfMemoir;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* GolfMemoir_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE5FB30E8B5958007AC223 /* Settings.bundle */,
+				F9E2C5740F9EF0D000654789 /* eGolfMemoir.plist */,
+				F9EB0F0F0FCCF685007B55D0 /* GolfMemoir.plist */,
+				F9EB0F100FCCF685007B55D0 /* aGolfMemoir.plist */,
+				F9EB0F0E0FCCF685007B55D0 /* bGolfMemoir.plist */,
+				F9E2C5750F9EF0D000654789 /* GolfMemoirGold.plist */,
+				F900572F0F79EA29004C7B6D /* iInfo.plist */,
+				F900572E0F79EA29004C7B6D /* iInfoScore.plist */,
+				F93FA7840F7E7AC8006B91B6 /* Info.plist */,
+				F9C1CFBA0E9820F000278DF0 /* iicon.png */,
+				F99756A40F7F47AA006CFEF9 /* iicongold.png */,
+				F97EE6AE0EB2DC410003AC7B /* iScoreIcon.png */,
+				F9C1133011F41924001E4B49 /* Holes.png */,
+				F950B8AD11F6954500AFE8DD /* Courses.png */,
+				F9C1133111F41924001E4B49 /* rounds.png */,
+				F9C1133211F41924001E4B49 /* settings.png */,
+				F915080B0E228BF4004CA8AE /* myicon.png */,
+				F9A0C6120E2B17A300877E1D /* golfscores.sql */,
+				F9A7D55F0FAD329400F4453A /* DatePicker.xib */,
+				F913DEFB0E8B4F880045CF1F /* schema.txt */,
+				F9D3A4DA0FE368A500BF9308 /* PayViewController.xib */,
+				F9F9B9D00E54A00D00AB6F21 /* testdata.txt */,
+				F977A6630E3E3CC800475AA0 /* CourseCell.xib */,
+				F98CF1F00E3C84A7006877A3 /* CourseMain.xib */,
+				F99C34FB0E8640A0007FFB90 /* DownloadCourse.xib */,
+				F977A6680E3E3E5C00475AA0 /* EditCourse.xib */,
+				F98CF2500E3C900D006877A3 /* EditCourseOld.xib */,
+				F9042B680E7B54ED00C2CE63 /* EditLocation.xib */,
+				F9FDBEFA0EDF30D800EF55E2 /* EmailView.xib */,
+				F94A964A0FCAF1E200A11791 /* FacebookView.xib */,
+				F981474C0FBEA90200965031 /* FriendsMain.xib */,
+				F9184E080E433DBF00E6EF78 /* FriendView.xib */,
+				F927E53C0DFA42C90063274E /* GameMainView.xib */,
+				28216C9C0DB4126800E5133A /* HoleView.xib */,
+				F9BAEAF10E2166A500B9CF48 /* ListGameDisplay.xib */,
+				F98DDF980E2081140046A5E4 /* ListMain.xib */,
+				F9C33E5F0EDA97DC0068AA9B /* Login.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				F9C6E6E8116DAEE4007F3FE8 /* PeerViewController.xib */,
+				F9EAC7ED0E73B12500E5F735 /* settings.xib */,
+				F976ED7B0F108AD400060DCA /* SubscribeView.xib */,
+				F9D16D650F11CE190065F997 /* UnlockView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98C7F9611C6091C008E0960 /* iAd.framework */,
+				F94CDA34116C6AA800DFD92E /* AudioToolbox.framework */,
+				F93030381169C98A004ADE39 /* GameKit.framework */,
+				F996739010AD13ED00724D26 /* MediaPlayer.framework */,
+				F964B70310099CC900FEB9FB /* MapKit.framework */,
+				F91566611001E889001B9198 /* MessageUI.framework */,
+				F9D3A4C60FE3659000BF9308 /* StoreKit.framework */,
+				F9B6E4B50EB82DBF00F9CB34 /* SystemConfiguration.framework */,
+				F95E0CBF0E6C4368006E72B0 /* QuartzCore.framework */,
+				F9A640880E1228900067AC69 /* CoreGraphics.framework */,
+				F9A6405E0E1228600067AC69 /* AddressBookUI.framework */,
+				F9A640530E12285A0067AC69 /* AddressBook.framework */,
+				F9A640370E1228240067AC69 /* CoreLocation.framework */,
+				F96DBBCA0DE0E5ED00887D2C /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F94CD9AF116C662F00DFD92E /* gamekitconnection */ = {
+			isa = PBXGroup;
+			children = (
+				F94799111170C46A007ECC90 /* BTDevice.m */,
+				F94799121170C46A007ECC90 /* BTDevice.h */,
+				F947990A1170C407007ECC90 /* BTDevicesManager.h */,
+				F947990B1170C407007ECC90 /* BTDevicesManager.m */,
+				F94798FC1170C33C007ECC90 /* BTSessionManager.h */,
+				F94798FD1170C33C007ECC90 /* BTSessionManager.m */,
+				F94CD9D0116C689400DFD92E /* DataHandler.h */,
+				F94CD9D1116C689400DFD92E /* DataHandler.m */,
+				F9C6E733116DB7C3007F3FE8 /* DeviceCell.h */,
+				F9C6E734116DB7C3007F3FE8 /* DeviceCell.m */,
+			);
+			name = gamekitconnection;
+			sourceTree = "<group>";
+		};
+		F96BA4860DF0AD830059C4F2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F9B3EC2A100236FB0093BD0F /* GolfMemoirMail.jpg */,
+				F98EA8F21086F04C0041A43A /* course.png */,
+				F90EFCB40EFBF3A500B65B10 /* thumb.png */,
+				F98EA8DD1086EE630041A43A /* Holes.png */,
+				F91479660EA85F3000E24B31 /* red.jpg */,
+				F91479670EA85F3000E24B31 /* black.jpg */,
+				F91479680EA85F3000E24B31 /* blue.jpg */,
+				F91479690EA85F3000E24B31 /* white.jpg */,
+				F99C9B2C0EA46A380030F9EC /* straight.png */,
+				F99C9B2D0EA46A380030F9EC /* dogleft.png */,
+				F99C9B2E0EA46A380030F9EC /* dogright.png */,
+				F9807FC50E46E12800171490 /* segment_check.png */,
+				F9E41B630E949E8E00766DCF /* LargeLogo.jpg */,
+				F96BA4AB0DF0B1BB0059C4F2 /* left.png */,
+				F9C609410DFA2F78003ED943 /* bg1.png */,
+				F9870F080E3F726E005F76D7 /* blank.png */,
+				F9B5ADE70E343767008CEC76 /* up.png */,
+				F9B5ADE80E343767008CEC76 /* down.png */,
+				F927E5580DFA54030063274E /* bg2.png */,
+				F9D1252D0E1849D800C79077 /* prevhole.png */,
+				F9D125540E18C9A400C79077 /* strokeleft.png */,
+				F9D125550E18C9A400C79077 /* strokeright.png */,
+				F9D1258A0E18D42A00C79077 /* photobak.png */,
+				F9D1252E0E1849D800C79077 /* nexthole.png */,
+				F96BA4870DF0AD830059C4F2 /* right.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F9D4CF4711B3FF8A0097B5D0 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F9D4CF4811B3FF8A0097B5D0 /* FBConnect.h */,
+				F9D4CF4911B3FF8A0097B5D0 /* FBConnectGlobal.h */,
+				F9D4CF4A11B3FF8A0097B5D0 /* FBConnectGlobal.m */,
+				F9D4CF4B11B3FF8A0097B5D0 /* FBSession.h */,
+				F9D4CF4C11B3FF8A0097B5D0 /* FBSession.m */,
+				F9D4CF4D11B3FF8A0097B5D0 /* FBRequest.h */,
+				F9D4CF4E11B3FF8A0097B5D0 /* FBRequest.m */,
+				F9D4CF4F11B3FF8A0097B5D0 /* FBXMLHandler.h */,
+				F9D4CF5011B3FF8A0097B5D0 /* FBXMLHandler.m */,
+				F9D4CF5111B3FF8A0097B5D0 /* FBLoginButton.h */,
+				F9D4CF5211B3FF8A0097B5D0 /* FBLoginButton.m */,
+				F9D4CF5311B3FF8A0097B5D0 /* FBDialog.h */,
+				F9D4CF5411B3FF8A0097B5D0 /* FBDialog.m */,
+				F9D4CF5511B3FF8A0097B5D0 /* FBLoginDialog.h */,
+				F9D4CF5611B3FF8A0097B5D0 /* FBLoginDialog.m */,
+				F9D4CF5711B3FF8A0097B5D0 /* FBPermissionDialog.h */,
+				F9D4CF5811B3FF8A0097B5D0 /* FBPermissionDialog.m */,
+				F9D4CF5911B3FF8A0097B5D0 /* FBStreamDialog.h */,
+				F9D4CF5A11B3FF8A0097B5D0 /* FBStreamDialog.m */,
+				F9D4CF5B11B3FF8A0097B5D0 /* FBConnect.bundle */,
+			);
+			name = FBConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GolfMemoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GolfMemoir" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfMemoir;
+			productName = GolfMemoir;
+			productReference = 1D6058910D05DD3D006BFB54 /* GolfMemoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9CFDD0F0EB2D72D000C22F5 /* iGolfScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CFDD5D0EB2D72D000C22F5 /* Build configuration list for PBXNativeTarget "iGolfScore" */;
+			buildPhases = (
+				F9CFDD100EB2D72D000C22F5 /* Resources */,
+				F9CFDD3A0EB2D72D000C22F5 /* Sources */,
+				F9CFDD540EB2D72D000C22F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGolfScore;
+			productName = GolfMemoir;
+			productReference = F9CFDD600EB2D72D000C22F5 /* iGolfScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F6AB140E98336200CF17F8 /* iGolfMemoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F6AB590E98336200CF17F8 /* Build configuration list for PBXNativeTarget "iGolfMemoir" */;
+			buildPhases = (
+				F9F6AB150E98336200CF17F8 /* Resources */,
+				F9F6AB360E98336200CF17F8 /* Sources */,
+				F9F6AB500E98336200CF17F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGolfMemoir;
+			productName = GolfMemoir;
+			productReference = F9F6AB5C0E98336200CF17F8 /* iGolfMemoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GolfMemoir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GolfMemoir */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GolfMemoir */,
+				F9F6AB140E98336200CF17F8 /* iGolfMemoir */,
+				F9CFDD0F0EB2D72D000C22F5 /* iGolfScore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				28216C9D0DB4126800E5133A /* HoleView.xib in Resources */,
+				F96BA4890DF0AD830059C4F2 /* right.png in Resources */,
+				F96BA4AC0DF0B1BB0059C4F2 /* left.png in Resources */,
+				F9C609420DFA2F78003ED943 /* bg1.png in Resources */,
+				F927E53D0DFA42C90063274E /* GameMainView.xib in Resources */,
+				F927E5590DFA54030063274E /* bg2.png in Resources */,
+				F9D1252F0E1849D800C79077 /* prevhole.png in Resources */,
+				F9D125300E1849D800C79077 /* nexthole.png in Resources */,
+				F9D125560E18C9A400C79077 /* strokeleft.png in Resources */,
+				F9D125570E18C9A400C79077 /* strokeright.png in Resources */,
+				F9D1258B0E18D42A00C79077 /* photobak.png in Resources */,
+				F98DDF990E2081140046A5E4 /* ListMain.xib in Resources */,
+				F9BAEAF20E2166A500B9CF48 /* ListGameDisplay.xib in Resources */,
+				F915080C0E228BF4004CA8AE /* myicon.png in Resources */,
+				F9A0C6130E2B17A300877E1D /* golfscores.sql in Resources */,
+				F9B5ADE90E343767008CEC76 /* up.png in Resources */,
+				F9B5ADEA0E343767008CEC76 /* down.png in Resources */,
+				F98CF1F10E3C84A7006877A3 /* CourseMain.xib in Resources */,
+				F98CF2510E3C900D006877A3 /* EditCourseOld.xib in Resources */,
+				F977A6640E3E3CC800475AA0 /* CourseCell.xib in Resources */,
+				F977A6690E3E3E5C00475AA0 /* EditCourse.xib in Resources */,
+				F9870F090E3F726E005F76D7 /* blank.png in Resources */,
+				F9184E090E433DBF00E6EF78 /* FriendView.xib in Resources */,
+				F9807FC60E46E12800171490 /* segment_check.png in Resources */,
+				F9F9B9D10E54A00D00AB6F21 /* testdata.txt in Resources */,
+				F9EAC7EE0E73B12500E5F735 /* settings.xib in Resources */,
+				F9042B690E7B54ED00C2CE63 /* EditLocation.xib in Resources */,
+				F99C34FC0E8640A0007FFB90 /* DownloadCourse.xib in Resources */,
+				F913DEFC0E8B4F880045CF1F /* schema.txt in Resources */,
+				F9AE5FB40E8B5958007AC223 /* Settings.bundle in Resources */,
+				F9E41B640E949E8E00766DCF /* LargeLogo.jpg in Resources */,
+				F99C9B320EA46A380030F9EC /* straight.png in Resources */,
+				F99C9B330EA46A380030F9EC /* dogleft.png in Resources */,
+				F99C9B340EA46A380030F9EC /* dogright.png in Resources */,
+				F914796E0EA85F3000E24B31 /* red.jpg in Resources */,
+				F914796F0EA85F3000E24B31 /* black.jpg in Resources */,
+				F91479700EA85F3000E24B31 /* blue.jpg in Resources */,
+				F91479710EA85F3000E24B31 /* white.jpg in Resources */,
+				F97EE6B00EB2DC410003AC7B /* iScoreIcon.png in Resources */,
+				F9C33E600EDA97DC0068AA9B /* Login.xib in Resources */,
+				F9FDBEFB0EDF30D800EF55E2 /* EmailView.xib in Resources */,
+				F90EFCB70EFBF3A500B65B10 /* thumb.png in Resources */,
+				F9603A740EFD5A1A0095F24D /* iicon.png in Resources */,
+				F976ED7E0F108AD400060DCA /* SubscribeView.xib in Resources */,
+				F9D16D670F11CE190065F997 /* UnlockView.xib in Resources */,
+				F99756A50F7F47AA006CFEF9 /* iicongold.png in Resources */,
+				F9E2C5760F9EF0D000654789 /* eGolfMemoir.plist in Resources */,
+				F9E2C5770F9EF0D000654789 /* GolfMemoirGold.plist in Resources */,
+				F9A7D5610FAD329400F4453A /* DatePicker.xib in Resources */,
+				F981474E0FBEA90200965031 /* FriendsMain.xib in Resources */,
+				F94A964C0FCAF1E200A11791 /* FacebookView.xib in Resources */,
+				F9EB0F140FCCF685007B55D0 /* bGolfMemoir.plist in Resources */,
+				F9EB0F150FCCF685007B55D0 /* GolfMemoir.plist in Resources */,
+				F9EB0F160FCCF685007B55D0 /* aGolfMemoir.plist in Resources */,
+				F9D3A4E00FE368A500BF9308 /* PayViewController.xib in Resources */,
+				F9B3EC2C100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */,
+				F98EA8DF1086EE630041A43A /* Holes.png in Resources */,
+				F98EA8F41086F04C0041A43A /* course.png in Resources */,
+				F9C6E6EC116DAEE4007F3FE8 /* PeerViewController.xib in Resources */,
+				F9D4CF6F11B3FF8A0097B5D0 /* FBConnect.bundle in Resources */,
+				F9C1133911F41924001E4B49 /* rounds.png in Resources */,
+				F9C1133A11F41924001E4B49 /* settings.png in Resources */,
+				F950B8AF11F6954500AFE8DD /* Courses.png in Resources */,
+				F9CD50E61666B26C00789269 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CFDD100EB2D72D000C22F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CFDD110EB2D72D000C22F5 /* MainWindow.xib in Resources */,
+				F9CFDD120EB2D72D000C22F5 /* HoleView.xib in Resources */,
+				F9CFDD130EB2D72D000C22F5 /* right.png in Resources */,
+				F9CFDD140EB2D72D000C22F5 /* left.png in Resources */,
+				F9CFDD150EB2D72D000C22F5 /* bg1.png in Resources */,
+				F9CFDD160EB2D72D000C22F5 /* GameMainView.xib in Resources */,
+				F9CFDD170EB2D72D000C22F5 /* bg2.png in Resources */,
+				F9CFDD180EB2D72D000C22F5 /* prevhole.png in Resources */,
+				F9CFDD190EB2D72D000C22F5 /* nexthole.png in Resources */,
+				F9CFDD1A0EB2D72D000C22F5 /* strokeleft.png in Resources */,
+				F9CFDD1B0EB2D72D000C22F5 /* strokeright.png in Resources */,
+				F9CFDD1C0EB2D72D000C22F5 /* photobak.png in Resources */,
+				F9CFDD1D0EB2D72D000C22F5 /* ListMain.xib in Resources */,
+				F9CFDD1E0EB2D72D000C22F5 /* ListGameDisplay.xib in Resources */,
+				F9CFDD1F0EB2D72D000C22F5 /* myicon.png in Resources */,
+				F9CFDD200EB2D72D000C22F5 /* golfscores.sql in Resources */,
+				F9CFDD210EB2D72D000C22F5 /* up.png in Resources */,
+				F9CFDD220EB2D72D000C22F5 /* down.png in Resources */,
+				F9CFDD230EB2D72D000C22F5 /* CourseMain.xib in Resources */,
+				F9CFDD240EB2D72D000C22F5 /* EditCourseOld.xib in Resources */,
+				F9CFDD250EB2D72D000C22F5 /* CourseCell.xib in Resources */,
+				F9CFDD260EB2D72D000C22F5 /* EditCourse.xib in Resources */,
+				F9CFDD270EB2D72D000C22F5 /* blank.png in Resources */,
+				F9CFDD280EB2D72D000C22F5 /* FriendView.xib in Resources */,
+				F9CFDD290EB2D72D000C22F5 /* segment_check.png in Resources */,
+				F9CFDD2A0EB2D72D000C22F5 /* testdata.txt in Resources */,
+				F9CFDD2B0EB2D72D000C22F5 /* settings.xib in Resources */,
+				F9CFDD2C0EB2D72D000C22F5 /* EditLocation.xib in Resources */,
+				F9CFDD2D0EB2D72D000C22F5 /* DownloadCourse.xib in Resources */,
+				F9CFDD2E0EB2D72D000C22F5 /* schema.txt in Resources */,
+				F9CFDD2F0EB2D72D000C22F5 /* Settings.bundle in Resources */,
+				F9CFDD300EB2D72D000C22F5 /* LargeLogo.jpg in Resources */,
+				F9CFDD320EB2D72D000C22F5 /* iicon.png in Resources */,
+				F9CFDD330EB2D72D000C22F5 /* straight.png in Resources */,
+				F9CFDD340EB2D72D000C22F5 /* dogleft.png in Resources */,
+				F9CFDD350EB2D72D000C22F5 /* dogright.png in Resources */,
+				F9CFDD360EB2D72D000C22F5 /* red.jpg in Resources */,
+				F9CFDD370EB2D72D000C22F5 /* black.jpg in Resources */,
+				F9CFDD380EB2D72D000C22F5 /* blue.jpg in Resources */,
+				F9CFDD390EB2D72D000C22F5 /* white.jpg in Resources */,
+				F97EE6B10EB2DC410003AC7B /* iScoreIcon.png in Resources */,
+				F9C33E610EDA97DC0068AA9B /* Login.xib in Resources */,
+				F9FDBEFC0EDF30D800EF55E2 /* EmailView.xib in Resources */,
+				F90EFCB60EFBF3A500B65B10 /* thumb.png in Resources */,
+				F976ED7D0F108AD400060DCA /* SubscribeView.xib in Resources */,
+				F9D16D660F11CE190065F997 /* UnlockView.xib in Resources */,
+				F9E2C57A0F9EF0D000654789 /* eGolfMemoir.plist in Resources */,
+				F9E2C57B0F9EF0D000654789 /* GolfMemoirGold.plist in Resources */,
+				F9A7D5620FAD329400F4453A /* DatePicker.xib in Resources */,
+				F981474F0FBEA90200965031 /* FriendsMain.xib in Resources */,
+				F94A964D0FCAF1E200A11791 /* FacebookView.xib in Resources */,
+				F9EB0F170FCCF685007B55D0 /* bGolfMemoir.plist in Resources */,
+				F9EB0F180FCCF685007B55D0 /* GolfMemoir.plist in Resources */,
+				F9EB0F190FCCF685007B55D0 /* aGolfMemoir.plist in Resources */,
+				F9D3A4DC0FE368A500BF9308 /* PayViewController.xib in Resources */,
+				F9B3EC2B100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */,
+				F98EA8E01086EE630041A43A /* Holes.png in Resources */,
+				F98EA8F51086F04C0041A43A /* course.png in Resources */,
+				F9C6E6EE116DAEE4007F3FE8 /* PeerViewController.xib in Resources */,
+				F9D4CF7911B3FF8A0097B5D0 /* FBConnect.bundle in Resources */,
+				F9C1133D11F41924001E4B49 /* rounds.png in Resources */,
+				F9C1133E11F41924001E4B49 /* settings.png in Resources */,
+				F950B8B011F6954500AFE8DD /* Courses.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6AB150E98336200CF17F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F6AB160E98336200CF17F8 /* MainWindow.xib in Resources */,
+				F9F6AB170E98336200CF17F8 /* HoleView.xib in Resources */,
+				F9F6AB180E98336200CF17F8 /* right.png in Resources */,
+				F9F6AB190E98336200CF17F8 /* left.png in Resources */,
+				F9F6AB1A0E98336200CF17F8 /* bg1.png in Resources */,
+				F9F6AB1B0E98336200CF17F8 /* GameMainView.xib in Resources */,
+				F9F6AB1C0E98336200CF17F8 /* bg2.png in Resources */,
+				F9F6AB1D0E98336200CF17F8 /* prevhole.png in Resources */,
+				F9F6AB1E0E98336200CF17F8 /* nexthole.png in Resources */,
+				F9F6AB1F0E98336200CF17F8 /* strokeleft.png in Resources */,
+				F9F6AB200E98336200CF17F8 /* strokeright.png in Resources */,
+				F9F6AB210E98336200CF17F8 /* photobak.png in Resources */,
+				F9F6AB220E98336200CF17F8 /* ListMain.xib in Resources */,
+				F9F6AB230E98336200CF17F8 /* ListGameDisplay.xib in Resources */,
+				F9F6AB240E98336200CF17F8 /* myicon.png in Resources */,
+				F9F6AB250E98336200CF17F8 /* golfscores.sql in Resources */,
+				F9F6AB260E98336200CF17F8 /* up.png in Resources */,
+				F9F6AB270E98336200CF17F8 /* down.png in Resources */,
+				F9F6AB280E98336200CF17F8 /* CourseMain.xib in Resources */,
+				F9F6AB290E98336200CF17F8 /* EditCourseOld.xib in Resources */,
+				F9F6AB2A0E98336200CF17F8 /* CourseCell.xib in Resources */,
+				F9F6AB2B0E98336200CF17F8 /* EditCourse.xib in Resources */,
+				F9F6AB2C0E98336200CF17F8 /* blank.png in Resources */,
+				F9F6AB2D0E98336200CF17F8 /* FriendView.xib in Resources */,
+				F9F6AB2E0E98336200CF17F8 /* segment_check.png in Resources */,
+				F9F6AB2F0E98336200CF17F8 /* testdata.txt in Resources */,
+				F9F6AB300E98336200CF17F8 /* settings.xib in Resources */,
+				F9F6AB310E98336200CF17F8 /* EditLocation.xib in Resources */,
+				F9F6AB320E98336200CF17F8 /* DownloadCourse.xib in Resources */,
+				F9F6AB330E98336200CF17F8 /* schema.txt in Resources */,
+				F9F6AB340E98336200CF17F8 /* Settings.bundle in Resources */,
+				F9F6AB350E98336200CF17F8 /* LargeLogo.jpg in Resources */,
+				F9D5EB8C0E98541D0043E87C /* iicon.png in Resources */,
+				F99C9B2F0EA46A380030F9EC /* straight.png in Resources */,
+				F99C9B300EA46A380030F9EC /* dogleft.png in Resources */,
+				F99C9B310EA46A380030F9EC /* dogright.png in Resources */,
+				F914796A0EA85F3000E24B31 /* red.jpg in Resources */,
+				F914796B0EA85F3000E24B31 /* black.jpg in Resources */,
+				F914796C0EA85F3000E24B31 /* blue.jpg in Resources */,
+				F914796D0EA85F3000E24B31 /* white.jpg in Resources */,
+				F97EE6AF0EB2DC410003AC7B /* iScoreIcon.png in Resources */,
+				F9C33E620EDA97DD0068AA9B /* Login.xib in Resources */,
+				F9FDBEFD0EDF30D800EF55E2 /* EmailView.xib in Resources */,
+				F90EFCB50EFBF3A500B65B10 /* thumb.png in Resources */,
+				F976ED7C0F108AD400060DCA /* SubscribeView.xib in Resources */,
+				F9D16D680F11CE190065F997 /* UnlockView.xib in Resources */,
+				F9E2C5780F9EF0D000654789 /* eGolfMemoir.plist in Resources */,
+				F9E2C5790F9EF0D000654789 /* GolfMemoirGold.plist in Resources */,
+				F9A7D5600FAD329400F4453A /* DatePicker.xib in Resources */,
+				F981474D0FBEA90200965031 /* FriendsMain.xib in Resources */,
+				F94A964B0FCAF1E200A11791 /* FacebookView.xib in Resources */,
+				F9EB0F110FCCF685007B55D0 /* bGolfMemoir.plist in Resources */,
+				F9EB0F120FCCF685007B55D0 /* GolfMemoir.plist in Resources */,
+				F9EB0F130FCCF685007B55D0 /* aGolfMemoir.plist in Resources */,
+				F9D3A4DE0FE368A500BF9308 /* PayViewController.xib in Resources */,
+				F9B3EC2D100236FB0093BD0F /* GolfMemoirMail.jpg in Resources */,
+				F98EA8DE1086EE630041A43A /* Holes.png in Resources */,
+				F98EA8F31086F04C0041A43A /* course.png in Resources */,
+				F9C6E6EA116DAEE4007F3FE8 /* PeerViewController.xib in Resources */,
+				F9D4CF6511B3FF8A0097B5D0 /* FBConnect.bundle in Resources */,
+				F9C1133511F41924001E4B49 /* rounds.png in Resources */,
+				F9C1133611F41924001E4B49 /* settings.png in Resources */,
+				F950B8AE11F6954500AFE8DD /* Courses.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GolfMemoirAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				F9E211740DD168FD004CD222 /* GameMainViewController.m in Sources */,
+				F9E213040DD17A29004CD222 /* ListMainViewController.m in Sources */,
+				F9E213390DD17BE4004CD222 /* GameHoleViewController.m in Sources */,
+				F9E214630DD6CE3E004CD222 /* HolePickerView.m in Sources */,
+				F96DBAF60DE0DD2700887D2C /* Score.m in Sources */,
+				F96BA4B30DF0B5270059C4F2 /* Hole.m in Sources */,
+				F927E67A0DFBA5970063274E /* ContactTable.m in Sources */,
+				F96B73FD0E0C356300C72EF0 /* Course.m in Sources */,
+				F96B74000E0C36C800C72EF0 /* CourseHoleData.m in Sources */,
+				F9BAEAAE0E2158DD00B9CF48 /* ListGameDisplayController.m in Sources */,
+				F97D342A0E2C4B1400CC547F /* ScoreCardTable.m in Sources */,
+				F91F4E570E2C4C4B00A5E452 /* ScoreCardCell.m in Sources */,
+				F91F4E7A0E2C4D3A00A5E452 /* ScoreCardCellView.m in Sources */,
+				F98CF1EE0E3C840E006877A3 /* CourseMainViewController.m in Sources */,
+				F98CF24C0E3C8E8A006877A3 /* EditCourseController.m in Sources */,
+				F98963B00E3E29280036A8A5 /* CourseTable.m in Sources */,
+				F9184E0E0E433F2A00E6EF78 /* GameFriendsViewController.m in Sources */,
+				F95E0C7E0E6C42A3006E72B0 /* TransitionView.m in Sources */,
+				F9EAC7F30E73B14000E5F735 /* AppSettings.m in Sources */,
+				F9EAC7F40E73B14000E5F735 /* SettingsViewController.m in Sources */,
+				F9042B650E7B514300C2CE63 /* EditLocationController.m in Sources */,
+				F99C34F60E863E77007FFB90 /* DownloadViewController.m in Sources */,
+				F95B15C50EB82D0E00CB070B /* Reachability.m in Sources */,
+				F9C33D5F0EDA8A400068AA9B /* User.m in Sources */,
+				F9C33D7E0EDA96A20068AA9B /* LoginViewController.m in Sources */,
+				F9FDBF040EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */,
+				F996CD590EE91E8F00A2B354 /* GTMRegex.m in Sources */,
+				F9E56FFD0EF8CAC6004D6332 /* AsyncConnection.m in Sources */,
+				F976ED8E0F108C3300060DCA /* SubscribeViewController.m in Sources */,
+				F9D16D380F11CC650065F997 /* UnlockWebViewController.m in Sources */,
+				F981472C0FBEA7BB00965031 /* GameFriendPicker.m in Sources */,
+				F9840C5B0FCAEE0300E0997F /* FacebookViewController.m in Sources */,
+				F9D3A4DF0FE368A500BF9308 /* PayObserver.m in Sources */,
+				F923DBC51013621B00551C38 /* MapLocationViewController.m in Sources */,
+				F9062AFF101AE08A00601B0B /* MapAnnotation.m in Sources */,
+				F9062B3C101AEC1A00601B0B /* MapOverlayView.m in Sources */,
+				F9B07968101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */,
+				F9E50ADB105A0E8400E16170 /* MapHoleAnnotation.m in Sources */,
+				F9AC5ED31165C579005757C5 /* LineView.m in Sources */,
+				F94CD9D4116C689400DFD92E /* DataHandler.m in Sources */,
+				F9C6E6EB116DAEE4007F3FE8 /* PeerViewController.m in Sources */,
+				F9C6E736116DB7C3007F3FE8 /* DeviceCell.m in Sources */,
+				F94798FF1170C33C007ECC90 /* BTSessionManager.m in Sources */,
+				F947990D1170C407007ECC90 /* BTDevicesManager.m in Sources */,
+				F94799141170C46A007ECC90 /* BTDevice.m in Sources */,
+				F9D4CF6611B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */,
+				F9D4CF6711B3FF8A0097B5D0 /* FBSession.m in Sources */,
+				F9D4CF6811B3FF8A0097B5D0 /* FBRequest.m in Sources */,
+				F9D4CF6911B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */,
+				F9D4CF6A11B3FF8A0097B5D0 /* FBLoginButton.m in Sources */,
+				F9D4CF6B11B3FF8A0097B5D0 /* FBDialog.m in Sources */,
+				F9D4CF6C11B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */,
+				F9D4CF6D11B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */,
+				F9D4CF6E11B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CFDD3A0EB2D72D000C22F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CFDD3B0EB2D72D000C22F5 /* main.m in Sources */,
+				F9CFDD3C0EB2D72D000C22F5 /* GolfMemoirAppDelegate.m in Sources */,
+				F9CFDD3D0EB2D72D000C22F5 /* FirstViewController.m in Sources */,
+				F9CFDD3E0EB2D72D000C22F5 /* GameMainViewController.m in Sources */,
+				F9CFDD3F0EB2D72D000C22F5 /* ListMainViewController.m in Sources */,
+				F9CFDD400EB2D72D000C22F5 /* GameHoleViewController.m in Sources */,
+				F9CFDD410EB2D72D000C22F5 /* HolePickerView.m in Sources */,
+				F9CFDD420EB2D72D000C22F5 /* Score.m in Sources */,
+				F9CFDD430EB2D72D000C22F5 /* Hole.m in Sources */,
+				F9CFDD440EB2D72D000C22F5 /* ContactTable.m in Sources */,
+				F9CFDD450EB2D72D000C22F5 /* Course.m in Sources */,
+				F9CFDD460EB2D72D000C22F5 /* CourseHoleData.m in Sources */,
+				F9CFDD470EB2D72D000C22F5 /* ListGameDisplayController.m in Sources */,
+				F9CFDD480EB2D72D000C22F5 /* ScoreCardTable.m in Sources */,
+				F9CFDD490EB2D72D000C22F5 /* ScoreCardCell.m in Sources */,
+				F9CFDD4A0EB2D72D000C22F5 /* ScoreCardCellView.m in Sources */,
+				F9CFDD4B0EB2D72D000C22F5 /* CourseMainViewController.m in Sources */,
+				F9CFDD4C0EB2D72D000C22F5 /* EditCourseController.m in Sources */,
+				F9CFDD4D0EB2D72D000C22F5 /* CourseTable.m in Sources */,
+				F9CFDD4E0EB2D72D000C22F5 /* GameFriendsViewController.m in Sources */,
+				F9CFDD4F0EB2D72D000C22F5 /* TransitionView.m in Sources */,
+				F9CFDD500EB2D72D000C22F5 /* AppSettings.m in Sources */,
+				F9CFDD510EB2D72D000C22F5 /* SettingsViewController.m in Sources */,
+				F9CFDD520EB2D72D000C22F5 /* EditLocationController.m in Sources */,
+				F9CFDD530EB2D72D000C22F5 /* DownloadViewController.m in Sources */,
+				F95B15C40EB82D0E00CB070B /* Reachability.m in Sources */,
+				F9C33D600EDA8A400068AA9B /* User.m in Sources */,
+				F9C33D7F0EDA96A20068AA9B /* LoginViewController.m in Sources */,
+				F9FDBF050EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */,
+				F996CD5A0EE91E8F00A2B354 /* GTMRegex.m in Sources */,
+				F9E56FFC0EF8CAC6004D6332 /* AsyncConnection.m in Sources */,
+				F976ED8F0F108C3300060DCA /* SubscribeViewController.m in Sources */,
+				F9D16D370F11CC650065F997 /* UnlockWebViewController.m in Sources */,
+				F981472D0FBEA7BB00965031 /* GameFriendPicker.m in Sources */,
+				F9840C5C0FCAEE0300E0997F /* FacebookViewController.m in Sources */,
+				F9D3A4DB0FE368A500BF9308 /* PayObserver.m in Sources */,
+				F923DBC91013621B00551C38 /* MapLocationViewController.m in Sources */,
+				F9062AFE101AE08A00601B0B /* MapAnnotation.m in Sources */,
+				F9062B3B101AEC1A00601B0B /* MapOverlayView.m in Sources */,
+				F9B0796A101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */,
+				F9E50ADC105A0E8400E16170 /* MapHoleAnnotation.m in Sources */,
+				F9AC5ED41165C579005757C5 /* LineView.m in Sources */,
+				F94CD9D5116C689400DFD92E /* DataHandler.m in Sources */,
+				F9C6E6ED116DAEE4007F3FE8 /* PeerViewController.m in Sources */,
+				F9C6E737116DB7C3007F3FE8 /* DeviceCell.m in Sources */,
+				F94799001170C33C007ECC90 /* BTSessionManager.m in Sources */,
+				F947990E1170C407007ECC90 /* BTDevicesManager.m in Sources */,
+				F94799151170C46A007ECC90 /* BTDevice.m in Sources */,
+				F9D4CF7011B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */,
+				F9D4CF7111B3FF8A0097B5D0 /* FBSession.m in Sources */,
+				F9D4CF7211B3FF8A0097B5D0 /* FBRequest.m in Sources */,
+				F9D4CF7311B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */,
+				F9D4CF7411B3FF8A0097B5D0 /* FBLoginButton.m in Sources */,
+				F9D4CF7511B3FF8A0097B5D0 /* FBDialog.m in Sources */,
+				F9D4CF7611B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */,
+				F9D4CF7711B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */,
+				F9D4CF7811B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6AB360E98336200CF17F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F6AB370E98336200CF17F8 /* main.m in Sources */,
+				F9F6AB380E98336200CF17F8 /* GolfMemoirAppDelegate.m in Sources */,
+				F9F6AB390E98336200CF17F8 /* FirstViewController.m in Sources */,
+				F9F6AB3A0E98336200CF17F8 /* GameMainViewController.m in Sources */,
+				F9F6AB3B0E98336200CF17F8 /* ListMainViewController.m in Sources */,
+				F9F6AB3C0E98336200CF17F8 /* GameHoleViewController.m in Sources */,
+				F9F6AB3D0E98336200CF17F8 /* HolePickerView.m in Sources */,
+				F9F6AB3E0E98336200CF17F8 /* Score.m in Sources */,
+				F9F6AB3F0E98336200CF17F8 /* Hole.m in Sources */,
+				F9F6AB400E98336200CF17F8 /* ContactTable.m in Sources */,
+				F9F6AB410E98336200CF17F8 /* Course.m in Sources */,
+				F9F6AB420E98336200CF17F8 /* CourseHoleData.m in Sources */,
+				F9F6AB430E98336200CF17F8 /* ListGameDisplayController.m in Sources */,
+				F9F6AB440E98336200CF17F8 /* ScoreCardTable.m in Sources */,
+				F9F6AB450E98336200CF17F8 /* ScoreCardCell.m in Sources */,
+				F9F6AB460E98336200CF17F8 /* ScoreCardCellView.m in Sources */,
+				F9F6AB470E98336200CF17F8 /* CourseMainViewController.m in Sources */,
+				F9F6AB480E98336200CF17F8 /* EditCourseController.m in Sources */,
+				F9F6AB490E98336200CF17F8 /* CourseTable.m in Sources */,
+				F9F6AB4A0E98336200CF17F8 /* GameFriendsViewController.m in Sources */,
+				F9F6AB4B0E98336200CF17F8 /* TransitionView.m in Sources */,
+				F9F6AB4C0E98336200CF17F8 /* AppSettings.m in Sources */,
+				F9F6AB4D0E98336200CF17F8 /* SettingsViewController.m in Sources */,
+				F9F6AB4E0E98336200CF17F8 /* EditLocationController.m in Sources */,
+				F9F6AB4F0E98336200CF17F8 /* DownloadViewController.m in Sources */,
+				F95B15C60EB82D0E00CB070B /* Reachability.m in Sources */,
+				F9C33D610EDA8A400068AA9B /* User.m in Sources */,
+				F9C33D800EDA96A20068AA9B /* LoginViewController.m in Sources */,
+				F9FDBF030EDF320A00EF55E2 /* ScoreWebViewController.m in Sources */,
+				F996CD580EE91E8F00A2B354 /* GTMRegex.m in Sources */,
+				F9E56FFB0EF8CAC6004D6332 /* AsyncConnection.m in Sources */,
+				F976ED8D0F108C3300060DCA /* SubscribeViewController.m in Sources */,
+				F9D16D390F11CC650065F997 /* UnlockWebViewController.m in Sources */,
+				F981472B0FBEA7BB00965031 /* GameFriendPicker.m in Sources */,
+				F9840C5A0FCAEE0300E0997F /* FacebookViewController.m in Sources */,
+				F9D3A4DD0FE368A500BF9308 /* PayObserver.m in Sources */,
+				F923DBC71013621B00551C38 /* MapLocationViewController.m in Sources */,
+				F9062AFD101AE08A00601B0B /* MapAnnotation.m in Sources */,
+				F9062B3A101AEC1A00601B0B /* MapOverlayView.m in Sources */,
+				F9B07969101ECD7F00CD6B25 /* MyMapAnnotationView.m in Sources */,
+				F9E50ADA105A0E8400E16170 /* MapHoleAnnotation.m in Sources */,
+				F9AC5ED21165C579005757C5 /* LineView.m in Sources */,
+				F94CD9D3116C689400DFD92E /* DataHandler.m in Sources */,
+				F9C6E6E9116DAEE4007F3FE8 /* PeerViewController.m in Sources */,
+				F9C6E735116DB7C3007F3FE8 /* DeviceCell.m in Sources */,
+				F94798FE1170C33C007ECC90 /* BTSessionManager.m in Sources */,
+				F947990C1170C407007ECC90 /* BTDevicesManager.m in Sources */,
+				F94799131170C46A007ECC90 /* BTDevice.m in Sources */,
+				F9D4CF5C11B3FF8A0097B5D0 /* FBConnectGlobal.m in Sources */,
+				F9D4CF5D11B3FF8A0097B5D0 /* FBSession.m in Sources */,
+				F9D4CF5E11B3FF8A0097B5D0 /* FBRequest.m in Sources */,
+				F9D4CF5F11B3FF8A0097B5D0 /* FBXMLHandler.m in Sources */,
+				F9D4CF6011B3FF8A0097B5D0 /* FBLoginButton.m in Sources */,
+				F9D4CF6111B3FF8A0097B5D0 /* FBDialog.m in Sources */,
+				F9D4CF6211B3FF8A0097B5D0 /* FBLoginDialog.m in Sources */,
+				F9D4CF6311B3FF8A0097B5D0 /* FBPermissionDialog.m in Sources */,
+				F9D4CF6411B3FF8A0097B5D0 /* FBStreamDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naresh Gupta (8Y8U9Y6WR9)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = GolfMemoir;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B1B5B24-CC16-4BD6-951B-90C69CE18755";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: manju gupta";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "fbconnect-iphone/src/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "fbconnect-iphone/src";
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AA0A71BF-024C-4F93-8A13-524275F524DF";
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Debug;
+		};
+		F9C87FE10E22784000E77DF3 /* New Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jajsoftware";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_PREPROCESS = NO;
+				LD_GENERATE_MAP_FILE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A6B27252-6C40-4EA9-9A38-0C81413E5032";
+				SDKROOT = iphonesimulator4.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = "New Distribution";
+		};
+		F9C87FE20E22784000E77DF3 /* New Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naresh Gupta (8Y8U9Y6WR9)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				HEADER_SEARCH_PATHS = "fbconnect-iphone/src/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "fbconnect-iphone/src";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GolfMemoir;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B1B5B24-CC16-4BD6-951B-90C69CE18755";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "New Distribution";
+		};
+		F9CFDD5E0EB2D72D000C22F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				HEADER_SEARCH_PATHS = "fbconnect-iphone/src/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "fbconnect-iphone/src";
+				INFOPLIST_FILE = iInfoScore.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+					"\"$(SRCROOT)/VirtalEarthKit\"",
+				);
+				PRODUCT_NAME = iGolfScore;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9CFDD5F0EB2D72D000C22F5 /* New Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jajsoftware";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				HEADER_SEARCH_PATHS = "fbconnect-iphone/src/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "fbconnect-iphone/src";
+				INFOPLIST_FILE = iInfoScore.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+					"\"$(SRCROOT)/VirtalEarthKit\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iGolfScore;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A59A552-D6A1-4671-87AB-F329614BF426";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = "New Distribution";
+		};
+		F9F6AB5A0E98336200CF17F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				INFOPLIST_FILE = iInfo.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+					"\"$(SRCROOT)/VirtalEarthKit\"",
+				);
+				PRODUCT_NAME = iGolfMemoir;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9F6AB5B0E98336200CF17F8 /* New Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jajsoftware";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GolfMemoir_Prefix.pch;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = "fbconnect-iphone/src/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "fbconnect-iphone/src";
+				INFOPLIST_FILE = iInfo.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+					"\"$(SRCROOT)/VirtalEarthKit\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iGolfMemoir;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3A59A552-D6A1-4671-87AB-F329614BF426";
+				SDKROOT = iphoneos;
+			};
+			name = "New Distribution";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GolfMemoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				F9C87FE20E22784000E77DF3 /* New Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "New Distribution";
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GolfMemoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				F9C87FE10E22784000E77DF3 /* New Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "New Distribution";
+		};
+		F9CFDD5D0EB2D72D000C22F5 /* Build configuration list for PBXNativeTarget "iGolfScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CFDD5E0EB2D72D000C22F5 /* Debug */,
+				F9CFDD5F0EB2D72D000C22F5 /* New Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "New Distribution";
+		};
+		F9F6AB590E98336200CF17F8 /* Build configuration list for PBXNativeTarget "iGolfMemoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F6AB5A0E98336200CF17F8 /* Debug */,
+				F9F6AB5B0E98336200CF17F8 /* New Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "New Distribution";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

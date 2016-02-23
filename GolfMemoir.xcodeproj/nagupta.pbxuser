@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 7046}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{6310, 1745}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GolfMemoir */ = {
+		activeExec = 0;
+		executables = (
+			C95339DC12482AD5009C78F0 /* GolfMemoir */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C95339DC12482AD5009C78F0 /* GolfMemoir */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GolfMemoir */;
+		codeSenseManager = C9533A0812482AF5009C78F0 /* Code sense */;
+		executables = (
+			C95339DC12482AD5009C78F0 /* GolfMemoir */,
+			C95339DD12482AD5009C78F0 /* iGolfMemoir */,
+			C95339DE12482AD5009C78F0 /* iGolfScore */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1061,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313981336;
+			PBXWorkspaceStateSaveDate = 313981336;
+		};
+		perUserProjectItems = {
+			C939545812B8891B009D8B15 /* PBXTextBookmark */ = C939545812B8891B009D8B15 /* PBXTextBookmark */;
+			C939545912B8891B009D8B15 /* PBXTextBookmark */ = C939545912B8891B009D8B15 /* PBXTextBookmark */;
+			C939545A12B8891B009D8B15 /* PBXTextBookmark */ = C939545A12B8891B009D8B15 /* PBXTextBookmark */;
+			C939546012B88AD6009D8B15 /* PBXTextBookmark */ = C939546012B88AD6009D8B15 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C9533A0712482AF5009C78F0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C939545812B8891B009D8B15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */;
+		name = "CourseHoleData.m: 9";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 0;
+	};
+	C939545912B8891B009D8B15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GolfMemoirAppDelegate.m */;
+		name = "GolfMemoirAppDelegate.m: 12";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 1745;
+		vrLoc = 6310;
+	};
+	C939545A12B8891B009D8B15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F9C33D5D0EDA8A400068AA9B /* User.h */;
+		rLen = 7;
+		rLoc = 1241;
+		rType = 0;
+	};
+	C939546012B88AD6009D8B15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F9C33D5D0EDA8A400068AA9B /* User.h */;
+		name = "User.h: 48";
+		rLen = 7;
+		rLoc = 1241;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 0;
+	};
+	C95339DC12482AD5009C78F0 /* GolfMemoir */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GolfMemoir;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C95339DD12482AD5009C78F0 /* iGolfMemoir */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iGolfMemoir;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C95339DE12482AD5009C78F0 /* iGolfScore */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iGolfScore;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C9533A0712482AF5009C78F0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C9533A0812482AF5009C78F0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F9042B640E7B514300C2CE63 /* EditLocationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 6513}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 887}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	F96B73FE0E0C36C800C72EF0 /* CourseHoleData.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2378, 3159}}";
+			sepNavSelRange = "{148, 0}";
+			sepNavVisRange = "{0, 1762}";
+		};
+	};
+	F9C33D5D0EDA8A400068AA9B /* User.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 689}}";
+			sepNavSelRange = "{1241, 7}";
+			sepNavVisRange = "{0, 1272}";
+		};
+	};
+	F9C33D5E0EDA8A400068AA9B /* User.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 2665}}";
+			sepNavSelRange = "{6073, 13}";
+			sepNavVisRange = "{5083, 2233}";
+		};
+	};
+	F9CFDD0F0EB2D72D000C22F5 /* iGolfScore */ = {
+		activeExec = 0;
+		executables = (
+			C95339DE12482AD5009C78F0 /* iGolfScore */,
+		);
+	};
+	F9E211730DD168FD004CD222 /* GameMainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 6019}}";
+			sepNavSelRange = "{10604, 0}";
+			sepNavVisRange = "{9727, 1959}";
+		};
+	};
+	F9F6AB140E98336200CF17F8 /* iGolfMemoir */ = {
+		activeExec = 0;
+		executables = (
+			C95339DD12482AD5009C78F0 /* iGolfMemoir */,
+		);
+	};
+}

@@ -1,0 +1,2393 @@
+TiGolfMemoir
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2644340000000000000132
+t1277576244
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004BFF3B87000000000006F150
+t1275018119
+s454992
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h
+c000000004BFF3B83000000000000230C
+t1275018115
+s8972
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004BFF3B830000000000000424
+t1275018115
+s1060
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004C04722E0000000000147690
+t1275359790
+s1341072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABNewPersonViewController.h
+c000000004C0472230000000000000756
+t1275359779
+s1878
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/ABPeoplePickerNavigationController.h
+c000000004C0472230000000000000D60
+t1275359779
+s3424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B620000000000000A23
+t1275018082
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BFF44C00000000000068F90
+t1275020480
+s429968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BFF44B600000000000001D0
+t1275020470
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLConnection.h
+c000000004BFDFE6F0000000000005C0B
+t1274936943
+s23563
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004C04734F00000000000D9120
+t1275360079
+s889120
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/GameKit.framework/Headers/GKPeerPickerController.h
+c000000004C0473420000000000000ED6
+t1275360066
+s3798
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/GameKit.framework/Headers/GKSession.h
+c000000004C0473420000000000000F9B
+t1275360066
+s3995
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004C047342000000000000014A
+t1275360066
+s330
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKReverseGeocoder.h
+c000000004C04724700000000000006CF
+t1275359815
+s1743
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C04724700000000000002FE
+t1275359815
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C04725B0000000000160350
+t1275359835
+s1442640
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004C0473250000000000155C80
+t1275360037
+s1399936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004C04728100000000000028E4
+t1275359873
+s10468
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C04728100000000000000CD
+t1275359873
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C04728D0000000000090330
+t1275359885
+s590640
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h
+c000000004C01F5FA00000000000005C5
+t1275196922
+s1477
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h
+c000000004C01F5FA0000000000000E02
+t1275196922
+s3586
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h
+c000000004C01F5FA0000000000000895
+t1275196922
+s2197
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h
+c000000004C01F5FA0000000000000568
+t1275196922
+s1384
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c000000004C01F5FB0000000000010A90
+t1275196923
+s68240
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004BFDFDA500000000000035F8
+t1274936741
+s13816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004BFDFDA40000000000001AE5
+t1274936740
+s6885
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004BFDFDAA000000000005E690
+t1274936746
+s386704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0473C80000000000000071
+t1275360200
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/TargetConditionals.h
+c000000004BF4CBFA00000000000031E9
+t1274334202
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/arpa/inet.h
+c000000004A4180D20000000000001533
+t1245806802
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/ifaddrs.h
+c000000004A4180E20000000000000782
+t1245806818
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet6/in6.h
+c000000004A73D64B0000000000004F5B
+t1249105483
+s20315
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/regex.h
+c000000004A5C14A7000000000000154F
+t1247548583
+s5455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
+c000000004BFDF9FB0000000000041A6F
+t1274935803
+s268911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/AppSettings.h
+c0000000048D358D700000000000002BA
+t1221810391
+s698
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/AppSettings.m
+c0000000048F96351000000000000128C
+t1224303441
+s4748
+i"AppSettings.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/AsyncConnection.h
+c000000004948937C00000000000002D2
+t1229493116
+s722
+i<Foundation/Foundation.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/AsyncConnection.m
+c000000004948935B0000000000000B94
+t1229493083
+s2964
+i"AsyncConnection.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevice.h
+c000000004BC08DA40000000000000324
+t1270910372
+s804
+i<GameKit/GameKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevice.m
+c000000004BD7D1740000000000000DE0
+t1272435060
+s3552
+i"BTDevice.h"
+i"BTSessionManager.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevicesManager.h
+c000000004BD7DA350000000000000174
+t1272437301
+s372
+i"BTDevice.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevicesManager.m
+c000000004BD7DA350000000000000386
+t1272437301
+s902
+i"BTDevicesManager.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTSessionManager.h
+c000000004BD7DA3500000000000003AC
+t1272437301
+s940
+i<GameKit/GameKit.h>
+i"DataHandler.h"
+i"BTDevicesManager.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTSessionManager.m
+c000000004BD7DA3200000000000010DB
+t1272437298
+s4315
+i"BTSessionManager.h"
+i"GolfMemoirAppDelegate.h"
+i"User.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Constants.h
+c000000004C2E87130000000000001A37
+t1278117651
+s6711
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ContactTable.h
+c0000000049D8037B0000000000000275
+t1238893435
+s629
+i<UIKit/UIKit.h>
+i<AddressBook/AddressBook.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ContactTable.m
+c0000000049D803BD0000000000000BE9
+t1238893501
+s3049
+i"ContactTable.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Course.h
+c000000004A9A14580000000000000EA0
+t1251611736
+s3744
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+i"CourseHoleData.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Course.m
+c000000004A9A151500000000000050F5
+t1251611925
+s20725
+i"Course.h"
+i"CourseHoleData.h"
+i"Reachability.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseHoleData.h
+c0000000048D3582D0000000000000981
+t1221810221
+s2433
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseHoleData.m
+c0000000048D358430000000000002B81
+t1221810243
+s11137
+i"CourseHoleData.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseMainViewController.h
+c000000004C28482B0000000000000361
+t1277708331
+s865
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i<iAd/iAd.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseMainViewController.m
+c000000004C28487800000000000019A7
+t1277708408
+s6567
+i"CourseMainViewController.h"
+i"EditCourseController.h"
+i"DownloadViewController.h"
+i"Constants.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseTable.h
+c0000000048D358AA000000000000040A
+t1221810346
+s1034
+i<UIKit/UIKit.h>
+i"Course.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseTable.m
+c0000000048D35A4800000000000021A9
+t1221810760
+s8617
+i"CourseTable.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DataHandler.h
+c000000004BD7D8460000000000000362
+t1272436806
+s866
+i"AudioToolbox/AudioToolbox.h"
+i"BTDevicesManager.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DataHandler.m
+c000000004BD7DD730000000000001706
+t1272438131
+s5894
+i"DataHandler.h"
+i"GolfMemoirAppDelegate.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DeviceCell.h
+c000000004BC08D2F00000000000000FA
+t1270910255
+s250
+i"BTDevice.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DeviceCell.m
+c000000004BC08D3E0000000000000184
+t1270910270
+s388
+i"DeviceCell.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DownloadViewController.h
+c000000004974E9C900000000000003FF
+t1232398793
+s1023
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/DownloadViewController.m
+c000000004A444C7B000000000000381C
+t1245990011
+s14364
+i"DownloadViewController.h"
+i"EditCourseController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditCourseController.h
+c000000004C2848CA0000000000000C55
+t1277708490
+s3157
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"GolfMemoirAppDelegate.h"
+i<iAd/iAd.h>
+i"EditLocationController.h"
+i"Constants.h"
+i"ScoreCardTable.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditCourseController.m
+c000000004C2841950000000000005282
+t1277706645
+s21122
+i"EditCourseController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditLocationController.h
+c000000004C2E8E1D0000000000000B67
+t1278119453
+s2919
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"HolePickerView.h"
+i<iAd/iAd.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditLocationController.m
+c000000004C36BBF6000000000000410E
+t1278655478
+s16654
+i"EditLocationController.h"
+i"CourseMainViewController.h"
+i"GolfMemoirAppDelegate.h"
+i"Constants.h"
+i"ScoreCardTable.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/FacebookViewController.h
+c000000004A1B74F400000000000002D2
+t1243313396
+s722
+i<UIKit/UIKit.h>
+i<FBConnect/FBConnect.h>
+i"GolfMemoirAppDelegate.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/FacebookViewController.m
+c000000004A1B89970000000000001C46
+t1243318679
+s7238
+i"FacebookViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/FirstViewController.h
+c0000000048B79CA10000000000000104
+t1219992737
+s260
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/FirstViewController.m
+c0000000048B79CA1000000000000058F
+t1219992737
+s1423
+i"FirstViewController.h"
+i"GameMainViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GTMDefines.h
+c000000004853010E0000000000001A17
+t1213399310
+s6679
+i<TargetConditionals.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GTMRegex.h
+c00000000482E2B2E00000000000039FC
+t1210985262
+s14844
+i<Foundation/Foundation.h>
+i<regex.h>
+i"GTMDefines.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GTMRegex.m
+c000000004853010E00000000000067A5
+t1213399310
+s26533
+i"GTMRegex.h"
+i"GTMDefines.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendPicker.h
+c000000004BBD7F6500000000000004D9
+t1270710117
+s1241
+i<UIKit/UIKit.h>
+i"GameHoleViewController.h"
+i"Course.h"
+i"FBConnect/FBConnect.h"
+i<AddressBook/ABPerson.h>
+i<AddressBookUI/ABNewPersonViewController.h>
+i<AddressBookUI/ABPeoplePickerNavigationController.h>
+i<GameKit/GKPeerPickerController.h>
+i<GameKit/GKSession.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendPicker.m
+c000000004C0C80820000000000002549
+t1275887746
+s9545
+i"GameFriendPicker.h"
+i"FacebookViewController.h"
+i"GolfMemoirAppDelegate.h"
+i"Constants.h"
+i"Reachability.h"
+i"FacebookViewController.h"
+i"PeerViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendsViewController.h
+c000000004C2848E30000000000000385
+t1277708515
+s901
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"GameFriendPicker.h"
+i<iAd/iAd.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendsViewController.m
+c000000004C28455500000000000018FF
+t1277707605
+s6399
+i"GameFriendsViewController.h"
+i"Constants.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameHoleViewController.h
+c000000004C25E4E70000000000000FF7
+t1277551847
+s4087
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i<CoreLocation/CoreLocation.h>
+i<iAd/iAd.h>
+i"FBConnect/FBConnect.h"
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameHoleViewController.m
+c000000004C2CB5C800000000000086E5
+t1277998536
+s34533
+i"GameHoleViewController.h"
+i"LoginViewController.h"
+i"ScoreWebViewController.h"
+i"HolePickerView.h"
+i"GolfMemoirAppDelegate.h"
+i"UnlockWebViewController.h"
+i"Constants.h"
+i"ScoreCardTable.h"
+i"PayObserver.h"
+i"MapLocationViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameMainViewController.h
+c000000004C25EBE300000000000007ED
+t1277553635
+s2029
+i<UIKit/UIKit.h>
+i"GameFriendsViewController.h"
+i"CourseTable.h"
+i"Course.h"
+i<iAd/iAd.h>
+i<StoreKit/SKProductsRequest.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameMainViewController.m
+c000000004C25E8B40000000000003916
+t1277552820
+s14614
+i"GameMainViewController.h"
+i"UnlockWebViewController.h"
+i"GolfMemoirAppDelegate.h"
+i"Constants.h"
+i"EditCourseController.h"
+i<AddressBook/ABPerson.h>
+i<StoreKit/SKPaymentQueue.h>
+i<StoreKit/SKPayment.h>
+i"PayObserver.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GolfMemoirAppDelegate.h
+c000000004BD3CC6A000000000000087E
+t1272171626
+s2174
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i"Score.h"
+i"AppSettings.h"
+i"SettingsViewController.h"
+i"Course.h"
+i"User.h"
+i<CoreLocation/CoreLocation.h>
+i"FBConnect/FBConnect.h"
+i"PayObserver.h"
+i"BTSessionManager.h"
+i"BTDevicesManager.h"
+i"DataHandler.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/GolfMemoirAppDelegate.m
+c000000004BD3CC910000000000004099
+t1272171665
+s16537
+i"GolfMemoirAppDelegate.h"
+i"FirstViewController.h"
+i"LoginViewController.h"
+i"GameMainViewController.h"
+i"GameHoleViewController.h"
+i"ListMainViewController.h"
+i"CourseMainViewController.h"
+i"UnlockWebViewController.h"
+i"SettingsViewController.h"
+i"Score.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Hole.h
+c00000000492E341400000000000006EE
+t1227764756
+s1774
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Hole.m
+c0000000049053D150000000000003551
+t1225080085
+s13649
+i"Hole.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/LineView.h
+c000000004BB59A200000000000000188
+t1270192672
+s392
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/LineView.m
+c000000004BB760370000000000000303
+t1270308919
+s771
+i"LineView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListGameDisplayController.h
+c000000004AC43C33000000000000063B
+t1254374451
+s1595
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"TransitionView.h"
+i"ListGameDisplayController.h"
+i"FBConnect/FBConnect.h"
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListGameDisplayController.m
+c000000004C03DBFB0000000000004610
+t1275321339
+s17936
+i"ListGameDisplayController.h"
+i"GolfMemoirAppDelegate.h"
+i"Constants.h"
+i"LoginViewController.h"
+i"ScoreWebViewController.h"
+i"ScoreCardTable.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListMainViewController.h
+c000000004C2848F2000000000000031C
+t1277708530
+s796
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i<iAd/iAd.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListMainViewController.m
+c000000004C28478D0000000000001681
+t1277708173
+s5761
+i"ListMainViewController.h"
+i"ListGameDisplayController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/LoginViewController.h
+c000000004ABCFA4700000000000006B8
+t1253898823
+s1720
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"Score.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/LoginViewController.m
+c000000004AB99CBA0000000000002900
+t1253678266
+s10496
+i"LoginViewController.h"
+i"UnlockWebViewController.h"
+i"ScoreWebViewController.h"
+i"SubscribeViewController.h"
+i"Constants.h"
+i"GTMRegex.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapAnnotation.h
+c000000004BB59FC40000000000000246
+t1270194116
+s582
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapAnnotation.m
+c000000004BB59FD400000000000003A2
+t1270194132
+s930
+i"MapAnnotation.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapHoleAnnotation.h
+c000000004AAC42560000000000000276
+t1252803158
+s630
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapHoleAnnotation.m
+c000000004AAC44E300000000000004A3
+t1252803811
+s1187
+i"MapHoleAnnotation.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapLocationViewController.h
+c000000004AC44C90000000000000032F
+t1254378640
+s815
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<MapKit/MKReverseGeocoder.h>
+i<CoreLocation/CoreLocation.h>
+i"MapOverlayView.h"
+i"GolfMemoirAppDelegate.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapLocationViewController.m
+c000000004BB7644800000000000030CE
+t1270309960
+s12494
+i"MapLocationViewController.h"
+i"MapAnnotation.h"
+i"MapHoleAnnotation.h"
+i"Constants.h"
+i"MyMapAnnotationView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapOverlayView.h
+c000000004A6D731600000000000002D3
+t1248686870
+s723
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapOverlayView.m
+c000000004BB7607E00000000000007EF
+t1270308990
+s2031
+i"MapOverlayView.h"
+i<MapKit/MapKit.h>
+i"MapAnnotation.h"
+i"LineView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MyMapAnnotationView.h
+c000000004A90DFE40000000000000113
+t1251008484
+s275
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/MyMapAnnotationView.m
+c000000004BB591D100000000000003FE
+t1270190545
+s1022
+i"MyMapAnnotationView.h"
+i"MapAnnotation.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PayObserver.h
+c000000004A408E6C00000000000002A8
+t1245744748
+s680
+i<UIKit/UIKit.h>
+i<StoreKit/SKPaymentQueue.h>
+i"Constants.h"
+i<StoreKit/SKProductsRequest.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PayObserver.m
+c000000004B5D54AC0000000000000CDD
+t1264407724
+s3293
+i"PayObserver.h"
+i"Constants.h"
+i"GolfMemoirAppDelegate.h"
+i"User.h"
+i<StoreKit/SKPayment.h>
+i<StoreKit/SKPaymentTransaction.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PayViewController.xib
+c000000004A33388200000000000016EE
+t1244870786
+s5870
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PeerViewController.h
+c000000004BD7D50700000000000001B8
+t1272435975
+s440
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"DataHandler.h"
+i"BTDevicesManager.h"
+i"DeviceCell.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PeerViewController.m
+c000000004BD7D4E4000000000000160D
+t1272435940
+s5645
+i"PeerViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/PeerViewController.xib
+c000000004BBD77640000000000001C81
+t1270708068
+s7297
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Pickers/HolePickerView.h
+c0000000048B79CA10000000000000162
+t1219992737
+s354
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Pickers/HolePickerView.m
+c0000000048CB63E10000000000000A4F
+t1221288929
+s2639
+i"HolePickerView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Reachability.h
+c000000004907F5A000000000000013E1
+t1225258400
+s5089
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Reachability.m
+c000000004907F5B20000000000005B61
+t1225258418
+s23393
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Score.h
+c000000004C284684000000000000108C
+t1277707908
+s4236
+i<Foundation/Foundation.h>
+i<Foundation/NSURLConnection.h>
+i<sqlite3.h>
+i"Hole.h"
+i"Course.h"
+i"BTDevice.h"
+i"FBConnect/FBConnect.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Score.m
+c000000004BD3CC81000000000000AE69
+t1272171649
+s44649
+i"Score.h"
+i"Hole.h"
+i"Constants.h"
+i"Reachability.h"
+i"GolfMemoirAppDelegate.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCell.h
+c0000000048B79CA100000000000001BC
+t1219992737
+s444
+i<UIKit/UIKit.h>
+i"GameHoleViewController.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCell.m
+c000000004A2BE91500000000000003F6
+t1244391701
+s1014
+i"ScoreCardCell.h"
+i"ScoreCardCellView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCellView.h
+c00000000498473140000000000000151
+t1233416980
+s337
+i<UIKit/UIKit.h>
+i"GameHoleViewController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCellView.m
+c000000004A2CB60D000000000000333D
+t1244444173
+s13117
+i"ScoreCardCellView.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardTable.h
+c0000000048B79CA10000000000000172
+t1219992737
+s370
+i<UIKit/UIKit.h>
+i"Score.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardTable.m
+c000000004A4C4BB20000000000000AC6
+t1246514098
+s2758
+i"ScoreCardTable.h"
+i"ScoreCardCell.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreWebViewController.h
+c00000000492F04D8000000000000032F
+t1227818200
+s815
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"Score.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreWebViewController.m
+c0000000049D992710000000000000AA9
+t1238995569
+s2729
+i"ScoreWebViewController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/Settings.bundle
+c000000004908553300000000000000AA
+t1225282867
+s170
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/SettingsViewController.h
+c000000004ABCF2A5000000000000012D
+t1253896869
+s301
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/SettingsViewController.m
+c000000004ABCFBF1000000000000086B
+t1253899249
+s2155
+i"SettingsViewController.h"
+i"LoginViewController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/SubscribeViewController.h
+c00000000496056AE0000000000000330
+t1231050414
+s816
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"Score.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/SubscribeViewController.m
+c0000000049D992770000000000000A97
+t1238995575
+s2711
+i"SubscribeViewController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/TransitionView.h
+c0000000048D0993F00000000000004F4
+t1221630271
+s1268
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/TransitionView.m
+c0000000048D545D200000000000010DA
+t1221936594
+s4314
+i"TransitionView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/UnlockWebViewController.h
+c00000000496A26D60000000000000361
+t1231693526
+s865
+i<UIKit/UIKit.h>
+i"GolfMemoirAppDelegate.h"
+i"Score.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/UnlockWebViewController.m
+c000000004973631A0000000000000EE6
+t1232298778
+s3814
+i"UnlockWebViewController.h"
+i"Constants.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/User.h
+c000000004C27976D00000000000004FF
+t1277663085
+s1279
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i<AddressBook/ABPerson.h>
+i"FBConnect/FBConnect.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Classes/User.m
+c000000004C2798470000000000002029
+t1277663303
+s8233
+i"User.h"
+i"Constants.h"
+i"Reachability.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/CourseCell.xib
+c0000000048B79CA10000000000003BA4
+t1219992737
+s15268
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/CourseMain.xib
+c000000004C28443E000000000000575F
+t1277707326
+s22367
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/DatePicker.xib
+c0000000049FCFB8B0000000000001C19
+t1241316235
+s7193
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/DownloadCourse.xib
+c0000000048D9DA0500000000000025A9
+t1222236677
+s9641
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/EditCourse.xib
+c000000004C2842830000000000010F33
+t1277706883
+s69427
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/EditCourseOld.xib
+c0000000048B79CA100000000000155AF
+t1219992737
+s87471
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/EditLocation.xib
+c000000004C36BB77000000000000F91E
+t1278655351
+s63774
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/EmailView.xib
+c00000000493640C7000000000000217D
+t1228292295
+s8573
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBConnect.bundle
+c000000004BC6AAA40000000000000066
+t1271311012
+s102
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBConnectGlobal.m
+c000000004BC6AAA400000000000005C5
+t1271311012
+s1477
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBDialog.m
+c000000004BC6AAA400000000000054A6
+t1271311012
+s21670
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBLoginButton.m
+c000000004BC6AAA40000000000001476
+t1271311012
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBLoginDialog.m
+c000000004BC6AAA4000000000000100E
+t1271311012
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBPermissionDialog.m
+c000000004BC6AAA40000000000000C88
+t1271311012
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBRequest.m
+c000000004BC6AAA40000000000002EFC
+t1271311012
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBSession.m
+c000000004BC6AAA4000000000000215A
+t1271311012
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBStreamDialog.m
+c000000004BC6AAA400000000000009B1
+t1271311012
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBXMLHandler.h
+c000000004BC6AAA400000000000003C9
+t1271311012
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FBXMLHandler.m
+c000000004BC6AAA40000000000001148
+t1271311012
+s4424
+i"FBXMLHandler.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FacebookView.xib
+c000000004A1ACA750000000000001A30
+t1243269749
+s6704
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FriendView.xib
+c000000004C0C80D70000000000002FCA
+t1275887831
+s12234
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/FriendsMain.xib
+c000000004C2844540000000000005756
+t1277707348
+s22358
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/GameMainView.xib
+c000000004C25E6E700000000000076E8
+t1277552359
+s30440
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/GolfMemoir.plist
+c000000004AC6DC700000000000000386
+t1254546544
+s902
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/GolfMemoirGold.plist
+c0000000049CF10550000000000000381
+t1238306901
+s897
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/GolfMemoir_Prefix.pch
+c0000000048B79CA100000000000000B7
+t1219992737
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/HoleView.xib
+c000000004C24B629000000000000F822
+t1277474345
+s63522
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/ListGameDisplay.xib
+c000000004A2DCBC10000000000001FCA
+t1244515265
+s8138
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/ListMain.xib
+c000000004C2847A800000000000055BF
+t1277708200
+s21951
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/Login.xib
+c000000004ABC4F8A00000000000077E5
+t1253855114
+s30693
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/MainWindow.xib
+c0000000048C4A55F00000000000037D5
+t1220846943
+s14293
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/SubscribeView.xib
+c00000000493640C7000000000000217D
+t1228292295
+s8573
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/UnlockView.xib
+c0000000049657A6A000000000000217D
+t1231387242
+s8573
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/aGolfMemoir.plist
+c000000004C0C85B30000000000000386
+t1275889075
+s902
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/bGolfMemoir.plist
+c000000004C0C86900000000000000386
+t1275889296
+s902
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/AppSettings.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/AsyncConnection.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTDevice.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTDevicesManager.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTSessionManager.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ContactTable.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Course.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseHoleData.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseMainViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseTable.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DataHandler.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DeviceCell.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DownloadViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/EditCourseController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/EditLocationController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBConnectGlobal.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBDialog.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBLoginButton.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBLoginDialog.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBPermissionDialog.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBRequest.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBSession.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBStreamDialog.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBXMLHandler.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FacebookViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FirstViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GTMRegex.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameFriendPicker.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameFriendsViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameHoleViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameMainViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GolfMemoirAppDelegate.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Hole.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/HolePickerView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/LineView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ListGameDisplayController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ListMainViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/LoginViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapAnnotation.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapHoleAnnotation.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapLocationViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapOverlayView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MyMapAnnotationView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/PayObserver.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/PeerViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Reachability.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Score.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardCell.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardCellView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardTable.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreWebViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/SettingsViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/SubscribeViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/TransitionView.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/UnlockWebViewController.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/User.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/iGolfMemoir.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app.dSYM
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/CourseCell.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/CourseMain.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/DatePicker.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/DownloadCourse.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/EditCourse.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/EditCourseOld.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/EditLocation.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/EmailView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/FBConnect.bundle
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/FacebookView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/FriendView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/FriendsMain.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GameMainView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoir.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoirGold.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoirMail.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/HoleView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/Holes.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/Info.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/LargeLogo.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/ListGameDisplay.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/ListMain.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/Login.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/MainWindow.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/PayViewController.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/PeerViewController.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/PkgInfo
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/Settings.bundle
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/SubscribeView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/UnlockView.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/aGolfMemoir.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/bGolfMemoir.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/bg1.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/bg2.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/black.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/blank.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/blue.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/course.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/dogleft.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/dogright.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/down.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/eGolfMemoir.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/golfscores.sql
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iGolfMemoir
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iInfo.plist
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iScoreIcon.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iicon.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/left.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/myicon.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/nexthole.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/photobak.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/prevhole.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/red.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/right.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/schema.txt
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/segment_check.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/settings.nib
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/straight.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/strokeleft.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/strokeright.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/testdata.txt
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/thumb.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/up.png
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/white.jpg
+t2
+s0
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/eGolfMemoir.plist
+c000000004C0C87800000000000000373
+t1275889536
+s883
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBConnect.h
+c000000004BC6AAA40000000000000381
+t1271311012
+s897
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBNativeStringUploader.h"
+i"FBConnect/FBTranslationsLoader.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBConnectGlobal.h
+c000000004BC6AAA40000000000001E85
+t1271311012
+s7813
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBDialog.h
+c000000004BC6AAA40000000000000EE9
+t1271311012
+s3817
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBLoginButton.h
+c000000004BC6AAA400000000000005A1
+t1271311012
+s1441
+i"FBConnect/FBSession.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBLoginDialog.h
+c000000004BC6AAA400000000000002F1
+t1271311012
+s753
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBNativeStringUploader.h
+c000000004BC6AAA4000000000000048F
+t1271311012
+s1167
+i"FBConnect/FBRequest.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBPermissionDialog.h
+c000000004BC6AAA4000000000000038C
+t1271311012
+s908
+i"FBConnect/FBLoginDialog.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBRequest.h
+c000000004BC6AAA40000000000001159
+t1271311012
+s4441
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBSession.h
+c000000004BC6AAA40000000000001579
+t1271311012
+s5497
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBStreamDialog.h
+c000000004BC6AAA4000000000000083F
+t1271311012
+s2111
+i"FBConnect/FBDialog.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/fbconnect-iphone/src/FBConnect/FBTranslationsLoader.h
+c000000004BC6AAA4000000000000073D
+t1271311012
+s1853
+i"FBConnect/FBConnectGlobal.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/golfscores.sql
+c000000004A30A7330000000000003800
+t1244702515
+s14336
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/iInfo.plist
+c000000004C16269F0000000000000386
+t1276520095
+s902
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/GolfMemoirMail.jpg
+c000000004A51FF60000000000000361A
+t1246887776
+s13850
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/Holes.png
+c000000004AD41155000000000000029F
+t1255412053
+s671
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/LargeLogo.jpg
+c0000000048E465460000000000023D13
+t1222927686
+s146707
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/bg1.png
+c0000000048B79CA1000000000001E845
+t1219992737
+s124997
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/bg2.png
+c0000000048B79CA1000000000001E3CB
+t1219992737
+s123851
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/black.jpg
+c000000004A2B809900000000000002C4
+t1244364953
+s708
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/blank.png
+c0000000048B79CA10000000000000FF4
+t1219992737
+s4084
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/blue.jpg
+c000000004A2B80CD00000000000002C6
+t1244365005
+s710
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/course.png
+c000000004AD6B9660000000000000D88
+t1255586150
+s3464
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/dogleft.png
+c0000000048F452430000000000000153
+t1223971395
+s339
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/dogright.png
+c0000000048F4525A0000000000000143
+t1223971418
+s323
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/down.png
+c0000000048B79CA10000000000000316
+t1219992737
+s790
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/iScoreIcon.png
+c000000004902A496000000000000060B
+t1224909974
+s1547
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/iicon.png
+c0000000048E81F66000000000000062D
+t1223171942
+s1581
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/left.png
+c0000000048B79CA100000000000002E5
+t1219992737
+s741
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/myicon.png
+c0000000048E45B1C00000000000014B8
+t1222925084
+s5304
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/nexthole.png
+c0000000048B79CA10000000000001166
+t1219992737
+s4454
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/photobak.png
+c0000000048B79CA100000000000018ED
+t1219992737
+s6381
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/prevhole.png
+c0000000048B79CA100000000000011AD
+t1219992737
+s4525
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/red.jpg
+c000000004A2B80F200000000000002C6
+t1244365042
+s710
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/right.png
+c0000000048B79CA10000000000000313
+t1219992737
+s787
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/segment_check.png
+c0000000048B79CA100000000000001FE
+t1219992737
+s510
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/straight.png
+c0000000048F452EB000000000000011F
+t1223971563
+s287
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/strokeleft.png
+c0000000048B79CA10000000000001242
+t1219992737
+s4674
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/strokeright.png
+c0000000048B79CA1000000000000127F
+t1219992737
+s4735
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/thumb.png
+c00000000494BBB090000000000000104
+t1229699849
+s260
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/up.png
+c0000000048B79CA10000000000000340
+t1219992737
+s832
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/images/white.jpg
+c000000004A2B810F00000000000002C4
+t1244365071
+s708
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/main.m
+c0000000048B79CA10000000000000364
+t1219992737
+s868
+i<UIKit/UIKit.h>
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/schema.txt
+c00000000492A451900000000000008D7
+t1227506969
+s2263
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/settings.xib
+c000000004ABCF27F0000000000002B5E
+t1253896831
+s11102
+
+N/Users/guptanaresh/personal/latest/GolfMemoir/testdata.txt
+c0000000048D0B07500000000000022F3
+t1221636213
+s8947
+
+N/var/folders/Z5/Z5LRFu7GFh8GOhTivHi6Pk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GolfMemoir_Prefix-emzuyibgnhgzbufldqxgrjydmwui/GolfMemoir_Prefix.pch.gch
+t2
+s0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/AppSettings.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/AppSettings.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/AsyncConnection.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/AsyncConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTDevice.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTDevicesManager.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTDevicesManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/BTSessionManager.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/BTSessionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ContactTable.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ContactTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Course.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/Course.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseHoleData.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseHoleData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseMainViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/CourseTable.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/CourseTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DataHandler.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/DataHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DeviceCell.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/DeviceCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/DownloadViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/DownloadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/EditCourseController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditCourseController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/EditLocationController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/EditLocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBConnectGlobal.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBDialog.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBLoginButton.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBLoginDialog.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBPermissionDialog.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBRequest.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBSession.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBStreamDialog.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FBXMLHandler.o" /Users/guptanaresh/personal/latest/GolfMemoir/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FacebookViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/FacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/FirstViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GTMRegex.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GTMRegex.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameFriendPicker.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendPicker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameFriendsViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameFriendsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameHoleViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameHoleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GameMainViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GameMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/GolfMemoirAppDelegate.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/GolfMemoirAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Hole.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/Hole.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/HolePickerView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/Pickers/HolePickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/LineView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/LineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ListGameDisplayController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListGameDisplayController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ListMainViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ListMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/LoginViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapAnnotation.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapHoleAnnotation.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapHoleAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapLocationViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapLocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MapOverlayView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/MapOverlayView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/MyMapAnnotationView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/MyMapAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/PayObserver.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/PayObserver.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/PeerViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/PeerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Reachability.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/Score.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/Score.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardCell.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardCellView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardCellView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreCardTable.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreCardTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/ScoreWebViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/ScoreWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/SettingsViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/SubscribeViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/SubscribeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/TransitionView.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/TransitionView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/UnlockWebViewController.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/UnlockWebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/User.o" /Users/guptanaresh/personal/latest/GolfMemoir/Classes/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/GolfMemoir.build/New Distribution-iphonesimulator/iGolfMemoir.build/Objects-normal/i386/main.o" /Users/guptanaresh/personal/latest/GolfMemoir/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/Classes/PayViewController.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/Classes/PeerViewController.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/CourseCell.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/CourseMain.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/DatePicker.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/DownloadCourse.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/EditCourse.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/EditCourseOld.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/EditLocation.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/EmailView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/FacebookView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/FriendView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/FriendsMain.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/GameMainView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/HoleView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/ListGameDisplay.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/ListMain.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/Login.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/MainWindow.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/SubscribeView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/UnlockView.xib
+r0
+
+CCompileXIB /Users/guptanaresh/personal/latest/GolfMemoir/settings.xib
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoir.plist" GolfMemoir.plist
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoirGold.plist" GolfMemoirGold.plist
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/aGolfMemoir.plist" aGolfMemoir.plist
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/bGolfMemoir.plist" bGolfMemoir.plist
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/eGolfMemoir.plist" eGolfMemoir.plist
+r0
+
+CCopyPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iInfo.plist" iInfo.plist
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/FBConnect.bundle" FBConnect.bundle
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/GolfMemoirMail.jpg" images/GolfMemoirMail.jpg
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/Holes.png" images/Holes.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/LargeLogo.jpg" images/LargeLogo.jpg
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/Settings.bundle" Classes/Settings.bundle
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/bg1.png" images/bg1.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/bg2.png" images/bg2.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/black.jpg" images/black.jpg
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/blank.png" images/blank.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/blue.jpg" images/blue.jpg
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/course.png" images/course.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/dogleft.png" images/dogleft.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/dogright.png" images/dogright.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/down.png" images/down.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/golfscores.sql" golfscores.sql
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/iScoreIcon.png" images/iScoreIcon.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/iicon.png" images/iicon.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/left.png" images/left.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/myicon.png" images/myicon.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/nexthole.png" images/nexthole.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/photobak.png" images/photobak.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/prevhole.png" images/prevhole.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/red.jpg" images/red.jpg
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/right.png" images/right.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/schema.txt" schema.txt
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/segment_check.png" images/segment_check.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/straight.png" images/straight.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/strokeleft.png" images/strokeleft.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/strokeright.png" images/strokeright.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/testdata.txt" testdata.txt
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/thumb.png" images/thumb.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/up.png" images/up.png
+r0
+
+CCpResource "build/New Distribution-iphonesimulator/iGolfMemoir.app/white.jpg" images/white.jpg
+r0
+
+CGenerateDSYMFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app.dSYM" "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iGolfMemoir"
+r0
+
+CLd "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/iGolfMemoir" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app/Info.plist" /Users/guptanaresh/personal/latest/GolfMemoir/iInfo.plist
+r0
+
+CProcessPCH /var/folders/Z5/Z5LRFu7GFh8GOhTivHi6Pk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GolfMemoir_Prefix-emzuyibgnhgzbufldqxgrjydmwui/GolfMemoir_Prefix.pch.gch GolfMemoir_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/guptanaresh/personal/latest/GolfMemoir/build/New Distribution-iphonesimulator/iGolfMemoir.app"
+r0
+
